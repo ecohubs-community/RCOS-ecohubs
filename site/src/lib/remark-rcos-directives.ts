@@ -14,8 +14,8 @@ import layerUrls from '../data/rcos-layer-urls.json';
  *   :::
  *
  * The `rcos` block looks up each clause number in rcos-clauses.json (generated
- * from the blueprint spec) and emits verbatim text plus a link to the section
- * on blueprint.ecohubs.community. Clause numbers may be comma- or space-
+ * from the RCOS Standard spec) and emits verbatim text plus a link to the section
+ * on rcos.ecohubs.community. Clause numbers may be comma- or space-
  * separated. Any unknown clause is emitted as an inline error comment so build
  * output surfaces mistakes without failing the build.
  */

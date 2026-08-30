@@ -97,7 +97,7 @@ Discussion happens in the PR comments and/or on the community forum. The deliber
 
 - **Operational** — lighter process, shorter window (defined in the Decision Matrix once adopted)
 - **Strategic** — community review; vote if required
-- **Constitutional** — requires a Snapshot vote with a defined supermajority threshold
+- **Constitutional** — requires an ecohubsOS vote with a defined supermajority threshold
 
 ### 3. Outcome
 
@@ -136,4 +136,4 @@ When in doubt, default to the **higher-impact type**.
 
 ## Questions?
 
-If something in the spec or the process is unclear, open a discussion on the [community forum](https://discussions.ecohubs.community) or ask in Discord before opening a PR. Governance changes affect everyone — deliberation before drafting saves time.
+If something in the spec or the process is unclear, open a discussion on the [community discord](https://discord.gg/Xnh7247Nq3). Governance changes affect everyone — deliberation before drafting saves time.

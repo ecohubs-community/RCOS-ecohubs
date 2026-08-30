@@ -33,7 +33,7 @@ This repository contains the formal RCOS (Regenerative Community Operating Syste
 ## How Proposals Work
 
 1. **Draft** — Open a PR with the proposal as a new file in `proposals/`. Use the template in [AGENTS.md](AGENTS.md).
-2. **Review** — Community deliberates in the PR. Discussion on Snapshot vote if required.
+2. **Review** — Community deliberates in the PR. Vote runs in ecohubsOS if required.
 3. **Passed** — PR is merged into `proposals/passed/`. The corresponding artifact(s) in `layers/` are updated in the same merge or a follow-up commit. `layers/6-evolution/02-version-history.md` is updated.
 4. **Rejected** — PR is closed. The proposal file (if any) is moved to `proposals/rejected/` for archive via a separate commit.
 

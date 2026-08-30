@@ -1,9 +1,14 @@
 {
   "tiles": [
     {
+      "layer": 0,
+      "title": "Layer 0 ratified",
+      "body": "Purpose Charter, Scope Declaration, Invariants Register and Identity Constraints Register adopted by Constitutional vote, effective 2026-07-03."
+    },
+    {
       "layer": 2,
-      "title": "Snapshot-based governance live",
-      "body": "Governance workflow now triggers on on-chain Snapshot proposals; compliance transitions automatically to draft state."
+      "title": "ecohubsOS voting live",
+      "body": "Governance now runs on the internal ecohubsOS voting app; the in-app proposal page is the decision record for every vote."
     },
     {
       "layer": 5,

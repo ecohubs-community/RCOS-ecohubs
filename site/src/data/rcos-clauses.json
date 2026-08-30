@@ -2,1491 +2,1491 @@
   "2.1.1": {
     "text": "A community MUST define exactly one primary purpose.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "21-purpose-definition",
     "sectionHeading": "2.1 Purpose Definition"
   },
   "2.1.2": {
     "text": "The primary purpose MUST describe the enduring reason for the community’s existence and MUST NOT be a short-term goal, project, or strategy.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "21-purpose-definition",
     "sectionHeading": "2.1 Purpose Definition"
   },
   "2.1.3": {
     "text": "The primary purpose MUST be stable across time and MUST only be changed through a constitutional decision as defined in Layer 2 and executed via the change process defined in Layer 6.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "21-purpose-definition",
     "sectionHeading": "2.1 Purpose Definition"
   },
   "2.1.4": {
     "text": "Secondary purposes MAY be defined, but MUST NOT conflict with or override the primary purpose.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "21-purpose-definition",
     "sectionHeading": "2.1 Purpose Definition"
   },
   "2.1.5": {
     "text": "No action, decision, or allocation of resources MAY materially contradict the stated primary purpose.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "21-purpose-definition",
     "sectionHeading": "2.1 Purpose Definition"
   },
   "2.2.1": {
     "text": "The community MUST explicitly declare the scope of what it governs.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "22-scope-declaration",
     "sectionHeading": "2.2 Scope Declaration"
   },
   "2.2.2": {
     "text": "The scope declaration MUST include, at minimum:",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "22-scope-declaration",
     "sectionHeading": "2.2 Scope Declaration"
   },
   "2.2.3": {
     "text": "The scope declaration MUST explicitly list what is out of scope.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "22-scope-declaration",
     "sectionHeading": "2.2 Scope Declaration"
   },
   "2.2.4": {
     "text": "Anything not explicitly declared as in scope MUST be treated as out of scope.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "22-scope-declaration",
     "sectionHeading": "2.2 Scope Declaration"
   },
   "2.2.5": {
     "text": "The community MUST NOT exercise authority over persons, assets, or domains that are declared out of scope.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "22-scope-declaration",
     "sectionHeading": "2.2 Scope Declaration"
   },
   "2.3.1": {
     "text": "Invariants are constraints that define what MUST NOT be violated while they are in force.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "23-invariants",
     "sectionHeading": "2.3 Invariants"
   },
   "2.3.2": {
     "text": "Invariants MUST be explicitly listed and documented.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "23-invariants",
     "sectionHeading": "2.3 Invariants"
   },
   "2.3.3": {
     "text": "Invariants MUST apply across all layers of RCOS.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "23-invariants",
     "sectionHeading": "2.3 Invariants"
   },
   "2.3.4": {
     "text": "No decision, role, process, or emergency measure MAY override an invariant.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "23-invariants",
     "sectionHeading": "2.3 Invariants"
   },
   "2.3.5": {
     "text": "If a conflict arises between an invariant and any other rule, the invariant MUST prevail.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "23-invariants",
     "sectionHeading": "2.3 Invariants"
   },
   "2.3.6": {
     "text": "Invariants MAY only be changed or removed through a constitutional change process as defined in Layer 2 and Layer 6.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "23-invariants",
     "sectionHeading": "2.3 Invariants"
   },
   "2.4.1": {
     "text": "The community MUST declare any identity-level constraints that materially affect participation, behavior, or governance.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "24-identity-constraints",
     "sectionHeading": "2.4 Identity Constraints"
   },
   "2.4.2": {
     "text": "Identity constraints MAY include, but are not limited to:",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "24-identity-constraints",
     "sectionHeading": "2.4 Identity Constraints"
   },
   "2.4.3": {
     "text": "Identity constraints MUST be testable and enforceable through defined processes.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "24-identity-constraints",
     "sectionHeading": "2.4 Identity Constraints"
   },
   "2.4.4": {
     "text": "Identity constraints MUST NOT be enforced implicitly or informally.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "24-identity-constraints",
     "sectionHeading": "2.4 Identity Constraints"
   },
   "2.5.1": {
     "text": "The following artifacts are mandatory for Layer 0 compliance:",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "25-artifacts",
     "sectionHeading": "2.5 Artifacts"
   },
   "2.5.2": {
     "text": "Layer 0 artifacts MUST be:",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "25-artifacts",
     "sectionHeading": "2.5 Artifacts"
   },
   "2.5.3": {
     "text": "If Layer 0 artifacts are missing, ambiguous, or internally contradictory, the community MUST be considered non-compliant with RCOS-Core.",
     "layer": 0,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "25-artifacts",
     "sectionHeading": "2.5 Artifacts"
   },
   "3.1.1": {
     "text": "The community MUST define explicit membership states.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "31-membership-states",
     "sectionHeading": "3.1 Membership States"
   },
   "3.1.2": {
     "text": "At minimum, the following membership states MUST exist:",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "31-membership-states",
     "sectionHeading": "3.1 Membership States"
   },
   "3.1.3": {
     "text": "Each membership state MUST have clearly defined rights, obligations, and limitations.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "31-membership-states",
     "sectionHeading": "3.1 Membership States"
   },
   "3.1.4": {
     "text": "No individual MAY hold multiple membership states simultaneously.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "31-membership-states",
     "sectionHeading": "3.1 Membership States"
   },
   "3.1.5": {
     "text": "No rights or obligations MAY be assumed outside of the individual’s current membership state.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "31-membership-states",
     "sectionHeading": "3.1 Membership States"
   },
   "3.2.1": {
     "text": "Entry into the community MUST follow an explicit onboarding process.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "32-entry-and-onboarding",
     "sectionHeading": "3.2 Entry and Onboarding"
   },
   "3.2.2": {
     "text": "The onboarding process MUST include:",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "32-entry-and-onboarding",
     "sectionHeading": "3.2 Entry and Onboarding"
   },
   "3.2.3": {
     "text": "Admission criteria MUST be explicit and documented.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "32-entry-and-onboarding",
     "sectionHeading": "3.2 Entry and Onboarding"
   },
   "3.2.4": {
     "text": "Informal, implicit, or retroactive membership MUST NOT be permitted.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "32-entry-and-onboarding",
     "sectionHeading": "3.2 Entry and Onboarding"
   },
   "3.3.1": {
     "text": "The community MUST define a probationary period for new members.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "33-trial-and-evaluation",
     "sectionHeading": "3.3 Trial and Evaluation"
   },
   "3.3.2": {
     "text": "The probationary period MUST have:",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "33-trial-and-evaluation",
     "sectionHeading": "3.3 Trial and Evaluation"
   },
   "3.3.3": {
     "text": "During probation, rights MAY be limited but obligations MUST be explicit.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "33-trial-and-evaluation",
     "sectionHeading": "3.3 Trial and Evaluation"
   },
   "3.3.4": {
     "text": "Failure to transition from probation MUST trigger a defined exit or extension process.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "33-trial-and-evaluation",
     "sectionHeading": "3.3 Trial and Evaluation"
   },
   "3.4.1": {
     "text": "The community MUST explicitly define member rights.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "34-rights-and-obligations",
     "sectionHeading": "3.4 Rights and Obligations"
   },
   "3.4.2": {
     "text": "The community MUST explicitly define member obligations.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "34-rights-and-obligations",
     "sectionHeading": "3.4 Rights and Obligations"
   },
   "3.4.3": {
     "text": "Rights and obligations MUST be symmetrical and proportionate to membership state.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "34-rights-and-obligations",
     "sectionHeading": "3.4 Rights and Obligations"
   },
   "3.4.4": {
     "text": "No obligation MAY be enforced without a corresponding, documented right.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "34-rights-and-obligations",
     "sectionHeading": "3.4 Rights and Obligations"
   },
   "3.4.5": {
     "text": "Obligations MUST NOT be open-ended or undefined.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "34-rights-and-obligations",
     "sectionHeading": "3.4 Rights and Obligations"
   },
   "3.5.1": {
     "text": "Participation expectations MUST be explicitly defined.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "35-participation-and-contribution",
     "sectionHeading": "3.5 Participation and Contribution"
   },
   "3.5.2": {
     "text": "Acceptable forms of contribution MUST be listed.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "35-participation-and-contribution",
     "sectionHeading": "3.5 Participation and Contribution"
   },
   "3.5.3": {
     "text": "Substitution of participation (e.g., outsourcing labor) MUST be explicitly governed.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "35-participation-and-contribution",
     "sectionHeading": "3.5 Participation and Contribution"
   },
   "3.5.4": {
     "text": "Persistent non-participation MUST trigger an accountability process as defined in Layer 4.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "35-participation-and-contribution",
     "sectionHeading": "3.5 Participation and Contribution"
   },
   "3.6.1": {
     "text": "Voluntary exit MUST be possible at all times.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "36-exit-and-separation",
     "sectionHeading": "3.6 Exit and Separation"
   },
   "3.6.2": {
     "text": "Exit procedures MUST be explicit, documented, and non-punitive.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "36-exit-and-separation",
     "sectionHeading": "3.6 Exit and Separation"
   },
   "3.6.3": {
     "text": "Forced exit MUST follow due process and be handled through Layer 4 mechanisms.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "36-exit-and-separation",
     "sectionHeading": "3.6 Exit and Separation"
   },
   "3.6.4": {
     "text": "Exit MUST NOT result in loss of rights beyond those explicitly tied to membership.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "36-exit-and-separation",
     "sectionHeading": "3.6 Exit and Separation"
   },
   "3.6.5": {
     "text": "Asset, role, and responsibility separation MUST be defined prior to exit.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "36-exit-and-separation",
     "sectionHeading": "3.6 Exit and Separation"
   },
   "3.7.1": {
     "text": "The community MAY define temporary suspension states.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "37-suspension-and-temporary-status",
     "sectionHeading": "3.7 Suspension and Temporary Status"
   },
   "3.7.2": {
     "text": "Suspension conditions MUST be explicit, time-bounded, and reviewable.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "37-suspension-and-temporary-status",
     "sectionHeading": "3.7 Suspension and Temporary Status"
   },
   "3.7.3": {
     "text": "Suspension MUST NOT be used as an indefinite or punitive substitute for exit.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "37-suspension-and-temporary-status",
     "sectionHeading": "3.7 Suspension and Temporary Status"
   },
   "3.8.1": {
     "text": "The following artifacts are mandatory for Layer 1 compliance:",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "38-artifacts",
     "sectionHeading": "3.8 Artifacts"
   },
   "3.8.2": {
     "text": "Layer 1 artifacts MUST be:",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "38-artifacts",
     "sectionHeading": "3.8 Artifacts"
   },
   "3.8.3": {
     "text": "Absence, ambiguity, or systematic violation of Layer 1 artifacts MUST result in loss of RCOS-Core compliance.",
     "layer": 1,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "38-artifacts",
     "sectionHeading": "3.8 Artifacts"
   },
   "4.1.1": {
     "text": "All collective decisions MUST be classified into exactly one of the following decision types:",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "41-decision-types",
     "sectionHeading": "4.1 Decision Types"
   },
   "4.1.2": {
     "text": "Operational Decisions concern day-to-day functioning and execution within existing rules.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "41-decision-types",
     "sectionHeading": "4.1 Decision Types"
   },
   "4.1.3": {
     "text": "Strategic Decisions concern long-term direction, allocation of significant resources, or creation/removal of major structures.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "41-decision-types",
     "sectionHeading": "4.1 Decision Types"
   },
   "4.1.4": {
     "text": "Constitutional Decisions concern changes to Layer 0 invariants, purpose, scope, or the governance system itself.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "41-decision-types",
     "sectionHeading": "4.1 Decision Types"
   },
   "4.1.5": {
     "text": "If a decision cannot be clearly classified, it MUST default to the higher-impact decision type.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "41-decision-types",
     "sectionHeading": "4.1 Decision Types"
   },
   "4.2.1": {
     "text": "Each decision type MUST have an explicitly defined decision-making mechanism.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "42-decision-mechanisms",
     "sectionHeading": "4.2 Decision Mechanisms"
   },
   "4.2.2": {
     "text": "Decision mechanisms MAY include, but are not limited to:",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "42-decision-mechanisms",
     "sectionHeading": "4.2 Decision Mechanisms"
   },
   "4.2.3": {
     "text": "Decision mechanisms MUST specify:",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "42-decision-mechanisms",
     "sectionHeading": "4.2 Decision Mechanisms"
   },
   "4.2.4": {
     "text": "No informal or ad hoc decision mechanism MAY be used for collective decisions.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "42-decision-mechanisms",
     "sectionHeading": "4.2 Decision Mechanisms"
   },
   "4.3.1": {
     "text": "All authority MUST be assigned to explicitly defined roles, circles, or bodies.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "43-authority-boundaries",
     "sectionHeading": "4.3 Authority Boundaries"
   },
   "4.3.2": {
     "text": "Authority assignments MUST include:",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "43-authority-boundaries",
     "sectionHeading": "4.3 Authority Boundaries"
   },
   "4.3.3": {
     "text": "No individual or body MAY exercise authority outside its explicitly assigned scope.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "43-authority-boundaries",
     "sectionHeading": "4.3 Authority Boundaries"
   },
   "4.3.4": {
     "text": "Authority MUST NOT be derived from charisma, seniority, ownership, or informal influence.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "43-authority-boundaries",
     "sectionHeading": "4.3 Authority Boundaries"
   },
   "4.3.5": {
     "text": "Temporary or emergency authority MUST be explicitly defined, time-bounded, and subject to review.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "43-authority-boundaries",
     "sectionHeading": "4.3 Authority Boundaries"
   },
   "4.4.1": {
     "text": "The community MUST maintain a Decision Matrix as a core governance artifact.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "44-decision-matrix",
     "sectionHeading": "4.4 Decision Matrix"
   },
   "4.4.2": {
     "text": "The Decision Matrix MUST map, at minimum:",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "44-decision-matrix",
     "sectionHeading": "4.4 Decision Matrix"
   },
   "4.4.3": {
     "text": "The Decision Matrix MUST be publicly accessible to all members.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "44-decision-matrix",
     "sectionHeading": "4.4 Decision Matrix"
   },
   "4.4.4": {
     "text": "Decisions made outside the Decision Matrix MUST be considered invalid.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "44-decision-matrix",
     "sectionHeading": "4.4 Decision Matrix"
   },
   "4.5.1": {
     "text": "The community MUST define a Governance Protocol describing the full lifecycle of a decision.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "45-governance-protocol",
     "sectionHeading": "4.5 Governance Protocol"
   },
   "4.5.2": {
     "text": "The Governance Protocol MUST include:",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "45-governance-protocol",
     "sectionHeading": "4.5 Governance Protocol"
   },
   "4.5.3": {
     "text": "The Governance Protocol MUST define how conflicts between decisions are resolved.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "45-governance-protocol",
     "sectionHeading": "4.5 Governance Protocol"
   },
   "4.5.4": {
     "text": "All governance actions MUST be documented according to Layer 5 documentation rules.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "45-governance-protocol",
     "sectionHeading": "4.5 Governance Protocol"
   },
   "4.6.1": {
     "text": "The governance system MUST include safeguards against:",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "46-safeguards-and-failure-modes",
     "sectionHeading": "4.6 Safeguards and Failure Modes"
   },
   "4.6.2": {
     "text": "Governance mechanisms MUST allow for challenge and review without retaliation.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "46-safeguards-and-failure-modes",
     "sectionHeading": "4.6 Safeguards and Failure Modes"
   },
   "4.6.3": {
     "text": "Persistent governance failures MUST trigger a formal review or constitutional process.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "46-safeguards-and-failure-modes",
     "sectionHeading": "4.6 Safeguards and Failure Modes"
   },
   "4.7.1": {
     "text": "The following artifacts are mandatory for Layer 2 compliance:",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "47-artifacts",
     "sectionHeading": "4.7 Artifacts"
   },
   "4.7.2": {
     "text": "Layer 2 artifacts MUST be:",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "47-artifacts",
     "sectionHeading": "4.7 Artifacts"
   },
   "4.7.3": {
     "text": "Absence, ambiguity, or systematic violation of Layer 2 artifacts MUST result in loss of RCOS-Core compliance.",
     "layer": 2,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "47-artifacts",
     "sectionHeading": "4.7 Artifacts"
   },
   "5.1.1": {
     "text": "All resources within the declared governed scope MUST be explicitly classified as either **commons** or **private**.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "51-commons-vs-private-resources",
     "sectionHeading": "5.1 Commons vs Private Resources"
   },
   "5.1.2": {
     "text": "The community MUST maintain a single, explicit, and versioned registry of governed resources, including at minimum:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "51-commons-vs-private-resources",
     "sectionHeading": "5.1 Commons vs Private Resources"
   },
   "5.1.3": {
     "text": "Any resource not explicitly classified MUST be treated as **unclassified**, and the community MUST NOT allocate, encumber, monetize, or transfer it until classification is completed through an authorized decision.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "51-commons-vs-private-resources",
     "sectionHeading": "5.1 Commons vs Private Resources"
   },
   "5.1.4": {
     "text": "For commons resources, the community MUST explicitly define:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "51-commons-vs-private-resources",
     "sectionHeading": "5.1 Commons vs Private Resources"
   },
   "5.1.5": {
     "text": "For private resources, the community MUST NOT exercise authority beyond what is explicitly declared in the scope, membership agreements, or other governed artifacts.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "51-commons-vs-private-resources",
     "sectionHeading": "5.1 Commons vs Private Resources"
   },
   "5.2.1": {
     "text": "The community MUST explicitly define which contribution categories are recognized. These MAY include, but are not limited to:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "52-contribution-recognition",
     "sectionHeading": "5.2 Contribution Recognition"
   },
   "5.2.2": {
     "text": "The community MUST define a contribution recognition mechanism specifying:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "52-contribution-recognition",
     "sectionHeading": "5.2 Contribution Recognition"
   },
   "5.2.3": {
     "text": "The community MUST NOT structurally depend on unpaid, invisible, or informal labor for system survival without explicitly defining corresponding obligations, recognition, or compensation mechanisms.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "52-contribution-recognition",
     "sectionHeading": "5.2 Contribution Recognition"
   },
   "5.2.4": {
     "text": "If internal economic units are used (e.g. time credits, points, tokens), the Internal Economy Protocol MUST define:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "52-contribution-recognition",
     "sectionHeading": "5.2 Contribution Recognition"
   },
   "5.2.5": {
     "text": "Contribution recognition MUST NOT create implicit decision authority, veto power, or governance influence beyond what is defined in Layer 2.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "52-contribution-recognition",
     "sectionHeading": "5.2 Contribution Recognition"
   },
   "5.3.1": {
     "text": "The community MUST explicitly define which resources are held in the shared treasury and how treasury boundaries interface with private resources.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "53-treasury-management",
     "sectionHeading": "5.3 Treasury Management"
   },
   "5.3.2": {
     "text": "Income sources and any external income interfaces MUST be explicitly defined.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "53-treasury-management",
     "sectionHeading": "5.3 Treasury Management"
   },
   "5.3.3": {
     "text": "Spending authority MUST be explicitly bounded through:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "53-treasury-management",
     "sectionHeading": "5.3 Treasury Management"
   },
   "5.3.4": {
     "text": "Transparency MUST be the default for treasury balances, inflows, outflows, obligations, and commitments.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "53-treasury-management",
     "sectionHeading": "5.3 Treasury Management"
   },
   "5.3.5": {
     "text": "Any exceptions to transparency MUST be explicitly defined, justified, time-bounded, and MUST NOT prevent members from auditing compliance.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "53-treasury-management",
     "sectionHeading": "5.3 Treasury Management"
   },
   "5.3.6": {
     "text": "The community MUST define reserve, risk, and liability policies, including:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "53-treasury-management",
     "sectionHeading": "5.3 Treasury Management"
   },
   "5.4.1": {
     "text": "Internal economic systems MUST prevent unbounded concentration of internal influence or control through resources, credits, or financial obligations.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "54-accumulation-constraints",
     "sectionHeading": "5.4 Accumulation Constraints"
   },
   "5.4.2": {
     "text": "If internal units exist, the community MUST define one or more accumulation-limiting mechanisms, which MAY include:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "54-accumulation-constraints",
     "sectionHeading": "5.4 Accumulation Constraints"
   },
   "5.4.3": {
     "text": "Economic mechanisms MUST NOT allow members to bypass governance authority boundaries defined in Layer 2, including through purchasing influence, creating dependency, or converting economic power into informal decision authority.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "54-accumulation-constraints",
     "sectionHeading": "5.4 Accumulation Constraints"
   },
   "5.4.4": {
     "text": "The community MUST define reviewable indicators of economic concentration risk and an explicit mechanism to adjust constraints when such risks are detected.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "54-accumulation-constraints",
     "sectionHeading": "5.4 Accumulation Constraints"
   },
   "5.5.1": {
     "text": "The following artifacts are mandatory for Layer 3 compliance:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "55-artifacts",
     "sectionHeading": "5.5 Artifacts"
   },
   "5.5.2": {
     "text": "Layer 3 artifacts MUST be:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "55-artifacts",
     "sectionHeading": "5.5 Artifacts"
   },
   "5.5.3": {
     "text": "The Internal Economy Protocol MUST define, at minimum:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "55-artifacts",
     "sectionHeading": "5.5 Artifacts"
   },
   "5.5.4": {
     "text": "The Treasury Ruleset MUST define, at minimum:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "55-artifacts",
     "sectionHeading": "5.5 Artifacts"
   },
   "5.6.1": {
     "text": "Shared resources, flows, and obligations MUST be visible to the community by default, with only limited and explicit exceptions.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "56-layer-invariants",
     "sectionHeading": "5.6 Layer Invariants"
   },
   "5.6.2": {
     "text": "Resources declared as commons MUST NOT be privatized through informal, implicit, or unilateral action.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "56-layer-invariants",
     "sectionHeading": "5.6 Layer Invariants"
   },
   "5.6.3": {
     "text": "Contribution recognition MUST be explicit such that unpaid or invisible labor is not structurally required for system survival.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "56-layer-invariants",
     "sectionHeading": "5.6 Layer Invariants"
   },
   "5.6.4": {
     "text": "Economic mechanisms MUST prevent indefinite concentration of internal influence.",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "56-layer-invariants",
     "sectionHeading": "5.6 Layer Invariants"
   },
   "5.7.1": {
     "text": "The following MUST be explicit:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "57-explicitness-rules",
     "sectionHeading": "5.7 Explicitness Rules"
   },
   "5.7.2": {
     "text": "The following MAY be explicit:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "57-explicitness-rules",
     "sectionHeading": "5.7 Explicitness Rules"
   },
   "5.7.3": {
     "text": "The following MUST remain optional and out of scope:",
     "layer": 3,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "57-explicitness-rules",
     "sectionHeading": "5.7 Explicitness Rules"
   },
   "6.1.1": {
     "text": "The community MUST define an explicit conflict classification system that is known, accessible, and usable by all members.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "61-conflict-classification",
     "sectionHeading": "6.1 Conflict Classification"
   },
   "6.1.2": {
     "text": "At minimum, the classification system MUST include the following classes:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "61-conflict-classification",
     "sectionHeading": "6.1 Conflict Classification"
   },
   "6.1.3": {
     "text": "Each conflict class MUST explicitly define:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "61-conflict-classification",
     "sectionHeading": "6.1 Conflict Classification"
   },
   "6.1.4": {
     "text": "Conflicts involving credible safety risks, coercion, abuse, or threats MUST be classified as **safety-critical** and MUST trigger elevated safeguards as defined in Section 6.3.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "61-conflict-classification",
     "sectionHeading": "6.1 Conflict Classification"
   },
   "6.1.5": {
     "text": "Misclassification or avoidance of classification MUST be treated as a process failure subject to review.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "61-conflict-classification",
     "sectionHeading": "6.1 Conflict Classification"
   },
   "6.2.1": {
     "text": "The community MUST define a minimum conflict resolution process applicable to all conflict classes.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "62-resolution-pathways",
     "sectionHeading": "6.2 Resolution Pathways"
   },
   "6.2.2": {
     "text": "The resolution process MUST include a clearly defined **resolution ladder** with explicit escalation steps.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "62-resolution-pathways",
     "sectionHeading": "6.2 Resolution Pathways"
   },
   "6.2.3": {
     "text": "The resolution ladder MUST define, at minimum:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "62-resolution-pathways",
     "sectionHeading": "6.2 Resolution Pathways"
   },
   "6.2.4": {
     "text": "The resolution process MUST be accessible without requiring social status, seniority, charisma, or informal proximity to decision-makers.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "62-resolution-pathways",
     "sectionHeading": "6.2 Resolution Pathways"
   },
   "6.2.5": {
     "text": "Unresolved conflicts MUST escalate through defined governance pathways without bypassing the Decision Matrix defined in Layer 2.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "62-resolution-pathways",
     "sectionHeading": "6.2 Resolution Pathways"
   },
   "6.3.1": {
     "text": "The community MUST define explicit safeguards for conflicts involving power asymmetries, dependency relationships, or safety risks.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "63-safeguards",
     "sectionHeading": "6.3 Safeguards"
   },
   "6.3.2": {
     "text": "Safeguards MUST include protections against retaliation for:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "63-safeguards",
     "sectionHeading": "6.3 Safeguards"
   },
   "6.3.3": {
     "text": "Where a power differential exists between parties, elevated safeguards MUST be applied, which MAY include:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "63-safeguards",
     "sectionHeading": "6.3 Safeguards"
   },
   "6.3.4": {
     "text": "For safety-critical conflicts, the community MUST define immediate protective actions that may be taken prior to full process completion, which MAY include:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "63-safeguards",
     "sectionHeading": "6.3 Safeguards"
   },
   "6.3.5": {
     "text": "Safety safeguards MUST override participation rights, role continuity, and operational convenience.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "63-safeguards",
     "sectionHeading": "6.3 Safeguards"
   },
   "6.4.1": {
     "text": "The community MUST define an explicit sanctions and repair framework.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "64-sanctions-repair-and-separation",
     "sectionHeading": "6.4 Sanctions, Repair, and Separation"
   },
   "6.4.2": {
     "text": "Sanctions and repair actions MUST be:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "64-sanctions-repair-and-separation",
     "sectionHeading": "6.4 Sanctions, Repair, and Separation"
   },
   "6.4.3": {
     "text": "The framework MUST define, at minimum:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "64-sanctions-repair-and-separation",
     "sectionHeading": "6.4 Sanctions, Repair, and Separation"
   },
   "6.4.4": {
     "text": "Separation, suspension, or removal actions MUST follow due process and MUST align with exit and separation rules defined in Layer 1.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "64-sanctions-repair-and-separation",
     "sectionHeading": "6.4 Sanctions, Repair, and Separation"
   },
   "6.4.5": {
     "text": "Sanctions MUST NOT be applied through informal exclusion, social pressure, silence, or implicit withdrawal of rights.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "64-sanctions-repair-and-separation",
     "sectionHeading": "6.4 Sanctions, Repair, and Separation"
   },
   "6.4.6": {
     "text": "Repair-oriented actions MUST be prioritized over punitive actions except in safety-critical cases.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "64-sanctions-repair-and-separation",
     "sectionHeading": "6.4 Sanctions, Repair, and Separation"
   },
   "6.5.1": {
     "text": "The following artifacts are mandatory for Layer 4 compliance:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "65-artifacts",
     "sectionHeading": "6.5 Artifacts"
   },
   "6.5.2": {
     "text": "Layer 4 artifacts MUST be:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "65-artifacts",
     "sectionHeading": "6.5 Artifacts"
   },
   "6.5.3": {
     "text": "The Conflict Resolution Ladder MUST define, at minimum:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "65-artifacts",
     "sectionHeading": "6.5 Artifacts"
   },
   "6.5.4": {
     "text": "The Accountability Protocol MUST define, at minimum:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "65-artifacts",
     "sectionHeading": "6.5 Artifacts"
   },
   "6.6.1": {
     "text": "Conflict MUST be treated as a handled condition with defined pathways; ignoring, suppressing, or normalizing unresolved conflict MUST be considered a system violation.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "66-layer-invariants",
     "sectionHeading": "6.6 Layer Invariants"
   },
   "6.6.2": {
     "text": "Conflicts involving power asymmetries MUST trigger elevated safeguards.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "66-layer-invariants",
     "sectionHeading": "6.6 Layer Invariants"
   },
   "6.6.3": {
     "text": "Repair and restoration MUST precede punishment except where immediate safety is at risk.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "66-layer-invariants",
     "sectionHeading": "6.6 Layer Invariants"
   },
   "6.6.4": {
     "text": "Physical, psychological, and child safety MUST override participation rights, role continuity, and reputational concerns.",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "66-layer-invariants",
     "sectionHeading": "6.6 Layer Invariants"
   },
   "6.7.1": {
     "text": "The following MUST be explicit:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "67-explicitness-rules",
     "sectionHeading": "6.7 Explicitness Rules"
   },
   "6.7.2": {
     "text": "The following MAY be explicit:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "67-explicitness-rules",
     "sectionHeading": "6.7 Explicitness Rules"
   },
   "6.7.3": {
     "text": "The following MUST remain optional and out of scope:",
     "layer": 4,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "67-explicitness-rules",
     "sectionHeading": "6.7 Explicitness Rules"
   },
   "7.1.1": {
     "text": "All ongoing responsibilities MUST be assigned to explicit, named roles rather than implicit expectations or informal agreements.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "71-roles-and-responsibilities",
     "sectionHeading": "7.1 Roles and Responsibilities"
   },
   "7.1.2": {
     "text": "The community MUST maintain a **Role Registry** that includes, at minimum:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "71-roles-and-responsibilities",
     "sectionHeading": "7.1 Roles and Responsibilities"
   },
   "7.1.3": {
     "text": "Each role MUST include an explicit accountability mechanism defining:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "71-roles-and-responsibilities",
     "sectionHeading": "7.1 Roles and Responsibilities"
   },
   "7.1.4": {
     "text": "No ongoing responsibility MAY exist without an explicit role, and no person MAY be held accountable for responsibilities not formally assigned to a role.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "71-roles-and-responsibilities",
     "sectionHeading": "7.1 Roles and Responsibilities"
   },
   "7.1.5": {
     "text": "Temporary or ad-hoc responsibilities MUST be explicitly time-bounded and MUST NOT become ongoing without formal role definition.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "71-roles-and-responsibilities",
     "sectionHeading": "7.1 Roles and Responsibilities"
   },
   "7.2.1": {
     "text": "The community MUST define explicit meeting types sufficient to support:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "72-meeting-system",
     "sectionHeading": "7.2 Meeting System"
   },
   "7.2.2": {
     "text": "Each meeting type MUST define, at minimum:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "72-meeting-system",
     "sectionHeading": "7.2 Meeting System"
   },
   "7.2.3": {
     "text": "Meetings MUST NOT exceed their declared decision scope or bypass authority boundaries defined in Layer 2.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "72-meeting-system",
     "sectionHeading": "7.2 Meeting System"
   },
   "7.2.4": {
     "text": "Meeting load MUST be bounded, monitored, and reviewable as defined in Section 7.4.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "72-meeting-system",
     "sectionHeading": "7.2 Meeting System"
   },
   "7.3.1": {
     "text": "The community MUST define explicit documentation rules for decisions, roles, operations, and shared obligations.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "73-documentation-and-information-flow",
     "sectionHeading": "7.3 Documentation and Information Flow"
   },
   "7.3.2": {
     "text": "Documentation rules MUST specify, at minimum:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "73-documentation-and-information-flow",
     "sectionHeading": "7.3 Documentation and Information Flow"
   },
   "7.3.3": {
     "text": "All decisions MUST be traceable to:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "73-documentation-and-information-flow",
     "sectionHeading": "7.3 Documentation and Information Flow"
   },
   "7.3.4": {
     "text": "Critical operational processes MUST be documented such that continuity does not depend on tacit knowledge held by specific individuals.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "73-documentation-and-information-flow",
     "sectionHeading": "7.3 Documentation and Information Flow"
   },
   "7.3.5": {
     "text": "Information flow MUST be designed to prevent gatekeeping, bottlenecks, or dependency on informal intermediaries.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "73-documentation-and-information-flow",
     "sectionHeading": "7.3 Documentation and Information Flow"
   },
   "7.4.1": {
     "text": "Time, attention, coordination capacity, and emotional labor MUST be treated as finite and limited resources.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "74-workload-and-capacity-boundaries",
     "sectionHeading": "7.4 Workload and Capacity Boundaries"
   },
   "7.4.2": {
     "text": "The community MUST define explicit workload boundaries, including:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "74-workload-and-capacity-boundaries",
     "sectionHeading": "7.4 Workload and Capacity Boundaries"
   },
   "7.4.3": {
     "text": "Workload boundaries MUST be reviewable and adjustable through an authorized governance process.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "74-workload-and-capacity-boundaries",
     "sectionHeading": "7.4 Workload and Capacity Boundaries"
   },
   "7.4.4": {
     "text": "Persistent overload, burnout risk, chronic non-participation, or dependency on over-functioning individuals MUST trigger review or repair processes as defined in Layer 4.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "74-workload-and-capacity-boundaries",
     "sectionHeading": "7.4 Workload and Capacity Boundaries"
   },
   "7.5.1": {
     "text": "The community MUST ensure that no single individual is a critical single point of failure for core operations.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "75-operational-continuity",
     "sectionHeading": "7.5 Operational Continuity"
   },
   "7.5.2": {
     "text": "Core operational roles and processes MUST include:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "75-operational-continuity",
     "sectionHeading": "7.5 Operational Continuity"
   },
   "7.5.3": {
     "text": "Operational continuity planning MUST be reviewed periodically.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "75-operational-continuity",
     "sectionHeading": "7.5 Operational Continuity"
   },
   "7.6.1": {
     "text": "The following artifacts are mandatory for Layer 5 compliance:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "76-artifacts",
     "sectionHeading": "7.6 Artifacts"
   },
   "7.6.2": {
     "text": "Layer 5 artifacts MUST be:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "76-artifacts",
     "sectionHeading": "7.6 Artifacts"
   },
   "7.6.3": {
     "text": "The Operations Manual MUST define, at minimum:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "76-artifacts",
     "sectionHeading": "7.6 Artifacts"
   },
   "7.6.4": {
     "text": "Meeting Templates MUST define, at minimum:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "76-artifacts",
     "sectionHeading": "7.6 Artifacts"
   },
   "7.7.1": {
     "text": "Ongoing responsibilities MUST NOT exist without an explicit role.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "77-layer-invariants",
     "sectionHeading": "7.7 Layer Invariants"
   },
   "7.7.2": {
     "text": "Critical operational processes MUST NOT rely solely on individual memory, goodwill, or informal transmission.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "77-layer-invariants",
     "sectionHeading": "7.7 Layer Invariants"
   },
   "7.7.3": {
     "text": "Meeting load, coordination burden, and unpaid or invisible labor MUST be bounded and reviewable.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "77-layer-invariants",
     "sectionHeading": "7.7 Layer Invariants"
   },
   "7.7.4": {
     "text": "Information access rules MUST be explicit and enforceable.",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "77-layer-invariants",
     "sectionHeading": "7.7 Layer Invariants"
   },
   "7.8.1": {
     "text": "The following MUST be explicit:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "78-explicitness-rules",
     "sectionHeading": "7.8 Explicitness Rules"
   },
   "7.8.2": {
     "text": "The following MAY be explicit:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "78-explicitness-rules",
     "sectionHeading": "7.8 Explicitness Rules"
   },
   "7.8.3": {
     "text": "The following MUST remain optional and out of scope:",
     "layer": 5,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "78-explicitness-rules",
     "sectionHeading": "7.8 Explicitness Rules"
   },
   "8.1.1": {
     "text": "The community MUST define explicit change mechanisms for modifying, adding, suspending, or removing rules, roles, artifacts, or decision structures.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "81-change-mechanisms",
     "sectionHeading": "8.1 Change Mechanisms"
   },
   "8.1.2": {
     "text": "Change mechanisms MUST explicitly distinguish between:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "81-change-mechanisms",
     "sectionHeading": "8.1 Change Mechanisms"
   },
   "8.1.3": {
     "text": "Every proposed change MUST specify, at minimum:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "81-change-mechanisms",
     "sectionHeading": "8.1 Change Mechanisms"
   },
   "8.1.4": {
     "text": "Changes affecting Layer 0 purpose, scope, invariants, or identity constraints MUST be classified as constitutional changes and MUST follow the constitutional decision mechanism.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "81-change-mechanisms",
     "sectionHeading": "8.1 Change Mechanisms"
   },
   "8.1.5": {
     "text": "The community MUST define explicit review mechanisms for adopted changes, including how changes are evaluated, revised, or reverted when they produce harm, instability, or unintended concentration of power.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "81-change-mechanisms",
     "sectionHeading": "8.1 Change Mechanisms"
   },
   "8.2.1": {
     "text": "All adopted changes MUST be versioned and traceable.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "82-versioning-and-authority",
     "sectionHeading": "8.2 Versioning and Authority"
   },
   "8.2.2": {
     "text": "The community MUST maintain a **Version History** that records, at minimum:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "82-versioning-and-authority",
     "sectionHeading": "8.2 Versioning and Authority"
   },
   "8.2.3": {
     "text": "At any point in time, the community MUST be able to unambiguously determine:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "82-versioning-and-authority",
     "sectionHeading": "8.2 Versioning and Authority"
   },
   "8.2.4": {
     "text": "Superseded rules MUST remain accessible for auditability, learning, and dispute resolution, together with the dates during which they were in force.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "82-versioning-and-authority",
     "sectionHeading": "8.2 Versioning and Authority"
   },
   "8.2.5": {
     "text": "No informal, undocumented, or “understood” rule changes MAY be considered valid.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "82-versioning-and-authority",
     "sectionHeading": "8.2 Versioning and Authority"
   },
   "8.3.1": {
     "text": "The community MAY adopt experiments as explicitly time-bounded and reversible deviations, extensions, or pilots intended for learning.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "83-experiments",
     "sectionHeading": "8.3 Experiments"
   },
   "8.3.2": {
     "text": "Every experiment MUST define, at minimum:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "83-experiments",
     "sectionHeading": "8.3 Experiments"
   },
   "8.3.3": {
     "text": "Experiments MUST NOT override Layer 0 invariants and MUST NOT bypass governance constraints defined in Layer 2.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "83-experiments",
     "sectionHeading": "8.3 Experiments"
   },
   "8.3.4": {
     "text": "Experiments MUST be explicitly labeled as experimental in all affected artifacts and MUST include a non-extendable expiration date unless renewed through an authorized decision.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "83-experiments",
     "sectionHeading": "8.3 Experiments"
   },
   "8.3.5": {
     "text": "If an experiment introduces safety risk, coercion, or sustained harm, the community MUST suspend or terminate the experiment immediately through a protective action, followed by post-hoc review.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "83-experiments",
     "sectionHeading": "8.3 Experiments"
   },
   "8.4.1": {
     "text": "Major failures, adaptations, reversals, and systemic learnings MUST be documented.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "84-learning-and-feedback-capture",
     "sectionHeading": "8.4 Learning and Feedback Capture"
   },
   "8.4.2": {
     "text": "Learning capture MUST include, at minimum:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "84-learning-and-feedback-capture",
     "sectionHeading": "8.4 Learning and Feedback Capture"
   },
   "8.4.3": {
     "text": "Learning records MUST be accessible according to Layer 5 information access rules.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "84-learning-and-feedback-capture",
     "sectionHeading": "8.4 Learning and Feedback Capture"
   },
   "8.4.4": {
     "text": "Repeated failure patterns MUST trigger structural review rather than individual blame.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "84-learning-and-feedback-capture",
     "sectionHeading": "8.4 Learning and Feedback Capture"
   },
   "8.5.1": {
     "text": "The system MUST prefer reversible changes over irreversible ones where possible.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "85-change-safety-and-reversibility",
     "sectionHeading": "8.5 Change Safety and Reversibility"
   },
   "8.5.2": {
     "text": "Irreversible or high-impact changes MUST include:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "85-change-safety-and-reversibility",
     "sectionHeading": "8.5 Change Safety and Reversibility"
   },
   "8.5.3": {
     "text": "Emergency changes MAY be permitted only where explicitly defined, MUST be time-bounded, MUST NOT override Layer 0 invariants, and MUST undergo mandatory post-hoc review and ratification or rollback.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "85-change-safety-and-reversibility",
     "sectionHeading": "8.5 Change Safety and Reversibility"
   },
   "8.6.1": {
     "text": "The following artifacts are mandatory for Layer 6 compliance:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
     "sectionHeading": "8.6 Artifacts"
   },
   "8.6.2": {
     "text": "Layer 6 artifacts MUST be:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
     "sectionHeading": "8.6 Artifacts"
   },
   "8.6.3": {
     "text": "The Change Protocol MUST define, at minimum:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
     "sectionHeading": "8.6 Artifacts"
   },
   "8.6.4": {
     "text": "The Version History MUST define:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
     "sectionHeading": "8.6 Artifacts"
   },
   "8.6.5": {
     "text": "The Learning Log MUST define:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
     "sectionHeading": "8.6 Artifacts"
   },
   "8.7.1": {
     "text": "Change MUST be possible but constrained; no change MAY be instantaneous, implicit, or unreviewable.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "87-layer-invariants",
     "sectionHeading": "8.7 Layer Invariants"
   },
   "8.7.2": {
     "text": "All adopted changes MUST be versioned, documented, and traceable.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "87-layer-invariants",
     "sectionHeading": "8.7 Layer Invariants"
   },
   "8.7.3": {
     "text": "Experiments MUST be time-bounded, explicitly labeled, and reversible.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "87-layer-invariants",
     "sectionHeading": "8.7 Layer Invariants"
   },
   "8.7.4": {
     "text": "Major failures and adaptations MUST be captured as shared learning, not erased or hidden.",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "87-layer-invariants",
     "sectionHeading": "8.7 Layer Invariants"
   },
   "8.8.1": {
     "text": "The following MUST be explicit:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "88-explicitness-rules",
     "sectionHeading": "8.8 Explicitness Rules"
   },
   "8.8.2": {
     "text": "The following MAY be explicit:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "88-explicitness-rules",
     "sectionHeading": "8.8 Explicitness Rules"
   },
   "8.8.3": {
     "text": "The following MUST remain optional and out of scope:",
     "layer": 6,
-    "layerUrl": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "88-explicitness-rules",
     "sectionHeading": "8.8 Explicitness Rules"
   }

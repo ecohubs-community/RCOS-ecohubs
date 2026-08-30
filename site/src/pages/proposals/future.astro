@@ -2,8 +2,8 @@
 import DocLayout from '../../layouts/DocLayout.astro';
 import { getEntry, render } from 'astro:content';
 
-const entry = await getEntry('future', 'future');
-if (!entry) throw new Error('proposals/future.md not found');
+const entry = await getEntry('future', 'future-proposals');
+if (!entry) throw new Error('resources/future-proposals.md not found');
 const { Content } = await render(entry);
 ---
 

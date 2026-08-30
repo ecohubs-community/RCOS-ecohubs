@@ -68,6 +68,37 @@ When a proposal passes:
 3. `layers/6-evolution/02-version-history.md` is updated to record the change
 4. Status fields in affected artifacts are updated from *Stub — not yet adopted* to *Active — adopted <YYYY-MM-DD>*
 
+## Version Numbering
+
+:::rcos{clauses="8.2.1, 8.2.3"}
+:::
+
+:::rationale{title="Why tie the major version to compliance, not to decision weight?"}
+A version number is a claim about the state of the system, not a tally of how much governance activity has happened. If every constitutional decision bumped the major version, EcoHubs would reach v4.0 while still failing the standard it claims to implement — the number would signal maturity the artifacts do not have. Reserving v1.0 for the moment RCOS-Core compliance is actually achieved makes the version honest: anyone can read it as "this implementation is complete" or "this implementation is still being assembled", without cross-checking the compliance checklist.
+:::
+
+Each adopted change increments the version recorded in the Version History. The MAJOR version tracks RCOS-Core compliance, not the weight of any single decision.
+
+**While on 0.x — not yet RCOS-Core compliant:**
+
+| Change type | Increment | Example |
+|---|---|---|
+| Constitutional | MINOR | v0.3 → v0.4 |
+| Strategic | MINOR | v0.4 → v0.5 |
+| Operational | PATCH | v0.4 → v0.4.1 |
+
+The adoption that achieves RCOS-Core compliance — every mandatory artifact adopted and every open content gap in `compliance/checklist.md` closed — is recorded as **v1.0**.
+
+**From v1.0 onward:**
+
+| Change type | Increment | Example |
+|---|---|---|
+| Constitutional | MAJOR | v1.2 → v2.0 |
+| Strategic | MINOR | v1.2 → v1.3 |
+| Operational | PATCH | v1.2 → v1.2.1 |
+
+Version numbers are not skipped or reserved. A rejected proposal consumes no version.
+
 ## Rejection
 
 :::rcos{clauses="8.2.2, 8.2.4"}

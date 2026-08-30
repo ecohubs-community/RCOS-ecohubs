@@ -36,12 +36,12 @@ path.
 /proposals/passed/[slug]  Individual passed proposal
 /proposals/rejected       Index of rejected proposals
 /proposals/rejected/[slug]
-/proposals/future         Renders proposals/future.md (moved from resources/)
+/proposals/future         Renders resources/future-proposals.md
 ```
 
 Hidden from the site (internal-only): `internal/RCOS_v01-reduced.md`,
 `internal/ecohubs_community_overview.md`,
-`internal/missing-technical-implementations.md`.
+`resources/missing-technical-implementations.md`.
 
 ## Navigation
 
@@ -70,7 +70,7 @@ FAQ link scrolls to the landing-page FAQ section for v1.
 ## Landing page
 
 - Hero + short explainer of what this site is
-- Link to RCOS framework: https://blueprint.ecohubs.community
+- Link to RCOS framework: https://rcos.ecohubs.community
 - **Dashboard tiles**
   - *Latest proposals*: last N entries from `proposals/passed/` +
     `proposals/rejected/`, sorted by frontmatter `date`
@@ -87,17 +87,17 @@ public docs):
 ```
 resources/RCOS_v01:reduced.md                 → internal/RCOS_v01-reduced.md
 resources/ecohubs_community_overview.md       → internal/ecohubs_community_overview.md
-resources/missing-technical-implementations.md → internal/missing-technical-implementations.md
 ```
 
-Move the future proposals doc to mirror the URL tree:
+> **Superseded 2026-08-30.** The plan also called for moving
+> `resources/missing-technical-implementations.md` into `internal/` and
+> `resources/future-proposals.md` to `proposals/future.md`. Both were copied
+> rather than moved, leaving two diverging versions of each. Consolidated back
+> onto the `resources/` copies, which artifacts and the compliance checklist
+> already linked to; the duplicates were deleted.
 
-```
-resources/future-proposals.md → proposals/future.md
-```
-
-The `resources/` folder can be removed afterwards (empty) or kept for future
-public resources.
+The `resources/` folder holds the future-proposals and
+missing-technical-implementations docs.
 
 ## Proposal frontmatter schema
 
@@ -125,7 +125,7 @@ is no migration — the schema applies to the first real proposal.
 layers      → glob: ../layers/*/*.md
 proposals   → glob: ../proposals/{passed,rejected}/*.md, schema above
 compliance  → ../compliance/checklist.md
-future      → ../proposals/future.md
+future      → ../resources/future-proposals.md
 faq         → src/content/faq.md
 layer-meta  → src/content/layer-meta/{0..6}.md  (hero copy, icon, summary)
 highlights  → src/data/highlights.json          (landing page)

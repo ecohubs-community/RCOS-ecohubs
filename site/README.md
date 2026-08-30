@@ -33,7 +33,7 @@ collections (see `src/content.config.ts`):
 
 - `../layers/*/*.md` — artifacts grouped by layer
 - `../proposals/{passed,rejected}/*.md` — governance proposals
-- `../proposals/future.md` — future-proposals doc
+- `../resources/future-proposals.md` — future-proposals doc
 - `../compliance/checklist.md` — compliance status
 
 Site-local content (FAQ, landing dashboard data, layer summaries) lives in

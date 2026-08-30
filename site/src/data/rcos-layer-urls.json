@@ -1,6 +1,6 @@
 {
   "0": {
-    "url": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
+    "url": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sections": [
       {
         "heading": "2.1 Purpose Definition",
@@ -25,7 +25,7 @@
     ]
   },
   "1": {
-    "url": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
+    "url": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sections": [
       {
         "heading": "3.1 Membership States",
@@ -62,7 +62,7 @@
     ]
   },
   "2": {
-    "url": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
+    "url": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sections": [
       {
         "heading": "4.1 Decision Types",
@@ -95,7 +95,7 @@
     ]
   },
   "3": {
-    "url": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
+    "url": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sections": [
       {
         "heading": "5.1 Commons vs Private Resources",
@@ -128,7 +128,7 @@
     ]
   },
   "4": {
-    "url": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
+    "url": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sections": [
       {
         "heading": "6.1 Conflict Classification",
@@ -161,7 +161,7 @@
     ]
   },
   "5": {
-    "url": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
+    "url": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sections": [
       {
         "heading": "7.1 Roles and Responsibilities",
@@ -198,7 +198,7 @@
     ]
   },
   "6": {
-    "url": "https://blueprint.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
+    "url": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sections": [
       {
         "heading": "8.1 Change Mechanisms",

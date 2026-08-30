@@ -109,7 +109,7 @@ Platforms, credentials, and integrations are the invisible scaffolding the rest 
 :::
 
 - **Purpose:** Keep EcoHubs platforms running, accessible, and aligned with community governance.
-- **Scope of responsibility:** ecohubsOS (os.ecohubs.community) and all integrations (Safe, Offcoin, Puckstack, Discord, Flarum), ecohubs.community, blueprint.ecohubs.community, platform credentials and access permissions, technical implementation tracking.
+- **Scope of responsibility:** ecohubsOS (os.ecohubs.community) and all integrations (Safe, Offcoin, Puckstack, Discord, Flarum), ecohubs.community, rcos.ecohubs.community, platform credentials and access permissions, technical implementation tracking.
 - **Decision authority:** All Operational platform and infrastructure changes as defined in the Decision Matrix; structural platform changes require a Strategic vote.
 - **Interfaces:** Digital Builder (feature development), Membership Admin (member access provisioning), Finance Steward (platform costs), Blueprint Steward (RCOS artifact hosting).
 - **Eligibility criteria:** Full Member in good standing; sufficient technical capability to manage the platforms.

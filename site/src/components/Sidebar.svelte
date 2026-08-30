@@ -1,11 +1,40 @@
 <script lang="ts">
-  import layerMeta from "../data/layer-meta.json";
+  type NavArtifact = { href: string; title: string };
+  type NavLayer = {
+    number: number;
+    slug: string;
+    title: string;
+    href: string;
+    artifacts: NavArtifact[];
+  };
 
-  type Props = { pathname?: string };
-  let { pathname = "" }: Props = $props();
+  type Props = { pathname?: string; layers?: NavLayer[] };
+  let { pathname = "", layers = [] }: Props = $props();
 
   let layersOpen = $state(pathname.startsWith("/layers"));
   let proposalsOpen = $state(pathname.startsWith("/proposals"));
+
+  // Layers whose artifact list is expanded. The layer containing the current
+  // page starts open so the active artifact is visible on load.
+  let openLayers = $state<Record<string, boolean>>(
+    Object.fromEntries(
+      layers.map((layer) => [
+        layer.slug,
+        pathname === layer.href || pathname.startsWith(`${layer.href}/`),
+      ]),
+    ),
+  );
+
+  function toggleLayer(slug: string) {
+    openLayers = { ...openLayers, [slug]: !openLayers[slug] };
+  }
+
+  // Following a layer link also reveals its artifacts. Expanding here rather
+  // than waiting for the next page keeps the list open during navigation.
+  function onLayerClick(slug: string) {
+    openLayers = { ...openLayers, [slug]: true };
+    onLinkClick();
+  }
 
   let drawerOpen = $state(false);
   let isMobile = $state(false);
@@ -150,17 +179,47 @@
               onclick={onLinkClick}>Overview</a
             >
           </li>
-          {#each layerMeta as layer (layer.slug)}
+          {#each layers as layer (layer.slug)}
             <li>
-              <a
-                href={`/layers/${layer.slug}`}
-                class="nav-sublink"
-                class:active={isActive(`/layers/${layer.slug}`)}
-                onclick={onLinkClick}
-              >
-                <span class="num">{layer.number}</span>
-                {layer.title}
-              </a>
+              <div class="nav-subrow">
+                <a
+                  href={layer.href}
+                  class="nav-sublink"
+                  class:active={pathname === layer.href}
+                  class:within={isActive(layer.href)}
+                  onclick={() => onLayerClick(layer.slug)}
+                >
+                  <span class="num">{layer.number}</span>
+                  {layer.title}
+                </a>
+                {#if layer.artifacts.length > 0}
+                  <button
+                    type="button"
+                    class="sub-toggle"
+                    aria-expanded={!!openLayers[layer.slug]}
+                    aria-label={`${openLayers[layer.slug] ? "Collapse" : "Expand"} ${layer.title} artifacts`}
+                    onclick={() => toggleLayer(layer.slug)}
+                  >
+                    <span class="chevron" class:open={openLayers[layer.slug]}
+                      >▸</span
+                    >
+                  </button>
+                {/if}
+              </div>
+              {#if openLayers[layer.slug] && layer.artifacts.length > 0}
+                <ul class="nav-sublist nav-sublist-deep">
+                  {#each layer.artifacts as artifact (artifact.href)}
+                    <li>
+                      <a
+                        href={artifact.href}
+                        class="nav-sublink nav-leaf"
+                        class:active={pathname === artifact.href}
+                        onclick={onLinkClick}>{artifact.title}</a
+                      >
+                    </li>
+                  {/each}
+                </ul>
+              {/if}
             </li>
           {/each}
         </ul>
@@ -222,7 +281,7 @@
   </ul>
 
   <div class="sidebar-footer">
-    <a href="https://blueprint.ecohubs.community" target="_blank" rel="noopener"
+    <a href="https://rcos.ecohubs.community" target="_blank" rel="noopener"
       >RCOS framework ↗</a
     >
   </div>
@@ -341,6 +400,21 @@
     border-left: 1px solid var(--color-border);
   }
 
+  .nav-sublist-deep {
+    margin: 0.1rem 0 0.3rem 0.6rem;
+    padding-left: 0.55rem;
+  }
+
+  .nav-subrow {
+    display: flex;
+    align-items: center;
+    gap: 0.15rem;
+  }
+  .nav-subrow .nav-sublink {
+    flex: 1;
+    min-width: 0;
+  }
+
   .nav-sublink {
     display: flex;
     align-items: center;
@@ -355,9 +429,41 @@
     background: var(--color-surface-muted);
     color: var(--color-text);
   }
+  .nav-sublink.within {
+    color: var(--color-text);
+  }
   .nav-sublink.active {
     color: var(--color-primary);
     font-weight: 600;
+  }
+
+  .nav-leaf {
+    font-size: 0.83rem;
+    line-height: 1.35;
+    padding: 0.3rem 0.55rem;
+  }
+
+  .sub-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: var(--radius-sm);
+    color: var(--color-text-muted);
+    cursor: pointer;
+  }
+  .sub-toggle:hover {
+    background: var(--color-surface-muted);
+    color: var(--color-text);
+  }
+  .sub-toggle .chevron {
+    font-size: 1rem;
+    line-height: 1;
   }
   .num {
     display: inline-block;

@@ -32,7 +32,7 @@ A decision process that accepts proposals informally — a message, a verbal sug
 Rushed votes favor whoever is already paying attention and disadvantage everyone else. A mandatory deliberation period, tied to the weight of the decision, gives members time to read, respond, and surface concerns before the vote opens — so the vote reflects considered judgment, not speed of reaction.
 :::
 
-- Deliberation happens in the community forum (discussions.ecohubs.community) or Discord before and during the ecohubsOS vote window
+- Deliberation happens in the community Discord ("#💬-discussions" channel) before and during the ecohubsOS vote window
 - **Minimum deliberation period before a vote opens:**
   - Strategic: 5 days
   - Constitutional: 15 days

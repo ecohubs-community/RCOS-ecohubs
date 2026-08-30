@@ -21,7 +21,7 @@ Unclassified resources are where quiet privatization happens — someone starts 
 | Shared treasury (Safe multi-sig)                  | Commons        | Finance Steward                                | Transparent to all Full Members (real-time via Safe)                        | Governed by Treasury Ruleset                                 |
 | ecohubsOS (os.ecohubs.community)                  | Commons        | Infrastructure Steward                         | Full Members; public-facing features open                                   | Cannot be sold or privatised without Constitutional decision |
 | EcoHubs website (ecohubs.community)               | Commons        | Infrastructure Steward                         | Public read; Infrastructure Steward and Communications Steward write        | Cannot be sold without Constitutional decision               |
-| RCOS hosted website (blueprint.ecohubs.community) | Commons        | Infrastructure Steward / Blueprint Steward     | Public read; Blueprint Steward writes; Infrastructure Steward manages       | Cannot be sold without Constitutional decision               |
+| RCOS hosted website (rcos.ecohubs.community) | Commons        | Infrastructure Steward / Blueprint Steward     | Public read; Blueprint Steward writes; Infrastructure Steward manages       | Cannot be sold without Constitutional decision               |
 | Brand, domain names, social media accounts        | Commons        | Communications Steward                         | Communications Steward manages; Full Members may contribute via defined process | Cannot be transferred without Constitutional decision     |
 
 > Any unclassified resource must not be allocated, encumbered, monetized, or transferred until classification is completed.

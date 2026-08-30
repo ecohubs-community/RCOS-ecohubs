@@ -12,11 +12,11 @@ Never summarize a change without recording it. Never update an artifact without 
 
 ---
 
-## 1. When a Snapshot Vote Passes
+## 1. When an ecohubsOS Vote Passes
 
-The authoritative trigger for all repository updates is a **passed Snapshot vote** — not a PR merge. The workflow is:
-1. A Full Member submits a proposal to Snapshot and opens deliberation (Discord / forum)
-2. The Snapshot vote runs for the required period
+The authoritative trigger for all repository updates is a **passed ecohubsOS vote** — not a PR merge. Voting happens in the internal ecohubsOS voting app; it requires no wallet and nothing is recorded on-chain. The workflow is:
+1. A Full Member submits a proposal in ecohubsOS and opens deliberation (Discord / forum)
+2. The ecohubsOS vote runs for the required period
 3. On passing: the Membership Admin adds the proposal file to `proposals/passed/` and triggers the updates below
 
 When a proposal passes, do all of the following in the same commit or a direct follow-up:
@@ -35,7 +35,7 @@ Append a new entry at the top of the log using this format:
 - **Effective date:** <YYYY-MM-DD>
 - **Decision record:** proposals/passed/<proposal-filename>.md
 - **Decision type:** Operational / Strategic / Constitutional
-- **Mechanism:** <e.g. Snapshot vote, consent, delegated authority>
+- **Mechanism:** <e.g. ecohubsOS vote, consent, delegated authority>
 - **Summary:** <1–3 sentences describing what changed>
 - **Layers affected:** <e.g. Layer 1, Layer 2>
 - **Artifacts changed:** <list of files modified>
@@ -43,9 +43,20 @@ Append a new entry at the top of the log using this format:
 ```
 
 Version numbering:
+
+MAJOR version tracks RCOS compliance, not the weight of any single decision. EcoHubs stays on **0.x while it is not yet RCOS-Core compliant**, and reaches **v1.0 on the adoption that makes it compliant** — every mandatory artifact adopted and every open content gap in `compliance/checklist.md` closed.
+
+**While on 0.x (pre-compliance):**
+- **Constitutional or Strategic change** → increment MINOR (v0.3 → v0.4)
+- **Operational change** → increment PATCH (add a third digit, e.g. v0.4.1)
+- The adoption that achieves RCOS-Core compliance → **v1.0**
+
+**From v1.0 onward:**
 - **Constitutional change** (Layer 0 or governance system) → increment MAJOR
 - **Strategic change** → increment MINOR
-- **Operational change** → increment PATCH (add a third digit, e.g. v0.1.1)
+- **Operational change** → increment PATCH
+
+Do not skip or reserve numbers. If a proposal is rejected, no version is consumed.
 
 ### 1c. Update `compliance/checklist.md` if compliance status changed
 
@@ -53,9 +64,9 @@ If the merged proposal adds a previously missing mandatory artifact, or fixes a 
 
 ---
 
-## 2. When a Snapshot Vote Fails (Rejected)
+## 2. When an ecohubsOS Vote Fails (Rejected)
 
-When a Snapshot vote fails:
+When an ecohubsOS vote fails:
 
 1. The Membership Admin adds the proposal file to `proposals/rejected/` with a note at the top:
 
@@ -98,7 +109,7 @@ Use this format (append at top of file):
 
 ## 4. Proposal File Format
 
-This is the **repository archive format** for proposals — the record filed to the repo after a Snapshot vote concludes. The Snapshot submission itself is a separate step done directly on Snapshot before the vote opens (a Snapshot proposal template is tracked as a missing technical implementation).
+This is the **repository archive format** for proposals — the record filed to the repo after an ecohubsOS vote concludes. The submission itself is a separate step done directly in ecohubsOS before the vote opens (an ecohubsOS proposal template is tracked as a missing technical implementation).
 
 All proposal files must follow this template. Save new proposals as:
 `proposals/<status>/<YYYY-MM-DD>_<short-kebab-title>.md`
@@ -157,8 +168,8 @@ All proposal files must follow this template. Save new proposals as:
 
 - **Vote outcome:** <Passed / Rejected / Needs Review>
 - **Vote date:** <YYYY-MM-DD>
-- **Mechanism:** <Snapshot vote / consent / delegated authority>
-- **Snapshot link:** <URL or "N/A">
+- **Mechanism:** <ecohubsOS vote / consent / delegated authority>
+- **ecohubsOS proposal link:** <URL or "N/A">
 - **Signatories / vote count:** <e.g. 12 approve, 1 reject, 2 abstain>
 ```
 

@@ -1,7 +1,7 @@
 # Purpose Charter
 
 - **Layer:** 0 — Identity & Scope
-- **Status:** Stub — not yet adopted
+- **Status:** Active — adopted 2026-07-03
 - **RCOS reference:** §2.1, §2.4, §2.5
 
 ---
@@ -56,7 +56,8 @@ The primary purpose may only be changed through a Constitutional decision as def
 
 ## Ratification Record
 
-- **Adopted:** <YYYY-MM-DD>
+- **Adopted:** 2026-07-03
 - **Decision type:** Constitutional
-- **Version:** <version>
-- **Decision record:** <link to decision record>
+- **Version:** v0.1
+- **Mechanism:** ecohubsOS vote — opened 2026-05-05, closed 2026-06-03, supermajority (≥⅔ of votes cast) met; 30-day ratification period ended 2026-07-03
+- **Decision record:** [Proposal record](/proposals/passed/2026-05-05_purpose-charter)

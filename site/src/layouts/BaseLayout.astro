@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Sidebar from '../components/Sidebar.svelte';
+import { buildLayerNav } from '../lib/layerNav';
 
 interface Props {
   title?: string;
@@ -10,6 +11,7 @@ interface Props {
 const { title = 'EcoHubs', description = 'EcoHubs community RCOS documentation.' } = Astro.props;
 const fullTitle = title === 'EcoHubs' ? title : `${title} · EcoHubs`;
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+const layerNav = await buildLayerNav();
 ---
 
 <!doctype html>
@@ -23,7 +25,7 @@ const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
   </head>
   <body>
     <div class="shell">
-      <Sidebar client:load pathname={pathname} />
+      <Sidebar client:load pathname={pathname} layers={layerNav} />
       <main class="main">
         <div class="main-inner">
           <slot />
