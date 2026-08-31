@@ -28,27 +28,12 @@ A predefined proposal template must be available in the ecohubsOS voting app so 
 **Required by:** Layer 1 — Exit & Separation Protocol (Voluntary Exit)  
 **Priority:** High
 
-A self-service exit flow must be available to members in ecohubsOS:
+Offboarding itself is implemented (`executeExit`), but only stewards and admins can trigger it. A member has no self-service route to request their own exit. Required:
 - Exit request form with an optional reason field
 - A message asking the member to consider doing a handover if they hold any roles
 - On submission: notify admin via email with member name, reason (if provided), and any roles held
 - Admin panel: show a confirm-exit button for the admin to finalise the exit within 24 hours
-- On confirmation: revoke access, transition state to Exited Member, send exit confirmation email to the member
-
----
-
-## 1. Member exit flow in ecohubsOS
-
-**Required by:** Layer 1 — Exit & Separation Protocol, Membership State Registry  
-**Priority:** High
-
-A formal offboarding workflow does not currently exist. Required functionality:
-- Trigger exit for a member (voluntary or forced via Layer 4)
-- Transition membership state from Full Member → Exited Member in the registry
-- Revoke access to member-only Discord channels and calls
-- Revoke access to ecohubsOS member features (retain profile and contribution history)
-- Block or remove member from platform-specific tools (Discord, forum via SSO, Safe) depending on what each platform supports
-- Send exit confirmation to the member
+- On confirmation: run the existing exit service, transition state to Exited Member, send exit confirmation email to the member
 
 ---
 
@@ -123,3 +108,62 @@ Consider designing and implementing an expiration or decay mechanism for ECO to 
 - Should the mechanism trigger only when ECO has real utility (unlocks, access, etc.)?
 
 This is a design decision before a technical one — open a governance proposal once the future utility of ECO is clearer.
+
+---
+
+## 10. Standby upon a member's own request
+
+**Required by:** Layer 1 — Exit & Separation Protocol (Suspension), Membership Agreement (Extended absence)  
+**Priority:** High
+
+A member may pause their membership for up to 12 months. ecohubsOS reaches `standby` only through a steward-resolved inactivity review or a disciplinary case — there is no member-initiated route. Required:
+- A "pause my membership" action available to Trial and Full Members, with an optional reason and an intended return date
+- Steward confirmation, then the existing standby status and reactivation flow apply unchanged
+- Contribution expectations paused for the duration; the 12-month standby cap continues to run
+
+---
+
+## 11. Removal vote must use the Strategic decision threshold
+
+**Required by:** Layer 1 — Exit & Separation Protocol (Forced Exit); Layer 2 — Decision Matrix  
+**Priority:** High
+
+The Decision Matrix classifies membership forced exit as a **Strategic** decision: minimum 5-day deliberation period, 7-day vote window, simple majority. The disciplinary case flow in ecohubsOS currently creates the removal proposal with the **Operational** configuration (3-day vote, no deliberation period), which is the correct threshold for membership admission and reactivation but not for ending a membership.
+
+Required: case proposals must be created with the Strategic decision type. Reactivation proposals correctly stay Operational.
+
+**Note:** this is a governance decision as much as a technical one — either the implementation moves to Strategic, or the Decision Matrix is amended. It should not be left divergent.
+
+---
+
+## 12. Steward-review deadline for an inconclusive case
+
+**Required by:** Layer 1 — Exit & Separation Protocol (Suspension — Bounds and review); RCOS §3.7.2  
+**Priority:** Medium
+
+Where a removal vote is inconclusive — including where nobody votes — the case moves to `needs_review` and the member stays suspended. Nothing currently bounds how long that lasts, which leaves a suspension that is neither time-bounded nor self-resolving.
+
+Required: a 14-day deadline on `needs_review` cases, surfaced to stewards as it approaches, after which the suspension lapses and the member is restored to their previous state.
+
+---
+
+## 13. Maximum trial duration review
+
+**Required by:** Layer 1 — Onboarding Protocol (Trial and Evaluation); RCOS §3.3.2, §3.3.4  
+**Priority:** Medium
+
+The trial state ends on reaching Level 1, with no upper bound in the implementation. The Onboarding Protocol sets a maximum trial duration of 12 months, extendable once by 6 months, after which exit is initiated.
+
+Required: a review raised to the Membership Admin at 12 months of Trial Member state, with an extend action and an exit action — following the same "propose to a human, never auto-execute" pattern as the inactivity timers.
+
+---
+
+## Resolved
+
+### 1. Member exit flow in ecohubsOS — resolved 2026-08-31
+
+**Was required by:** Layer 1 — Exit & Separation Protocol, Membership State Registry
+
+Implemented as `executeExit`, the single offboarding path, triggered by a steward resolving a membership review or by a community decision on a disciplinary case. It sets the membership status to Exited, removes all role groups, deactivates the identity-provider account, revokes active sessions, unsubscribes the member from the newsletter, removes the Discord member role, removes the member from the public listing, and deletes the Offcoin member record so a returning member re-enters at zero. Each external step is best-effort and reported to the acting steward.
+
+Member-initiated exit requests remain open — see item 7.

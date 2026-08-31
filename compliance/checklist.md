@@ -1,7 +1,7 @@
 # Compliance Checklist
 
 - **RCOS-Core version:** v0.1
-- **Last audited:** 2026-08-30
+- **Last audited:** 2026-08-31
 - **Audit method:** Self-audit (content definition complete; formal adoption in progress)
 - **Overall status:** Pending adoption — all artifacts have substantive content; Layer 0 is fully adopted (4 of 20 artifacts); the remaining 16 are Draft
 
@@ -24,17 +24,17 @@ The two bars below show content readiness and formal adoption separately.
 
 ```
 Layer 0 — Identity & Scope        ███████████████████░  95%  (adopted 2026-07-03)
-Layer 1 — Membership System       ██████████████████░░  92%
+Layer 1 — Membership System       ███████████████████░  95%
 Layer 2 — Governance & Logic      ████████████████████  98%
 Layer 3 — Economic & Resource     ████████████████░░░░  82%
 Layer 4 — Conflict & Repair       ███████████████████░  93%
 Layer 5 — Operations              ██████████████████░░  92%
 Layer 6 — Evolution               ████████████████████  97%
 ─────────────────────────────────────────────────────────
-Overall content coverage          ████████████████████  93%
+Overall content coverage          ████████████████████  94%
 ```
 
-> Scoring method: each normative MUST requirement in the spec counts as 1 point. Fully addressed = 1, partially addressed = 0.5, not addressed = 0. Total ~200 normative MUST requirements identified across Layers 0–6 (updated to reflect Identity Constraints Register as a 4th Layer 0 artifact per RCOS-Core v0.1 spec 2026-04-27). Score: ~186/200 ≈ 93%. Layer 0 reduced from 98% to 95% because two ecological constraints (IC-004, IC-005) have partial enforcement (measurable threshold deferred).
+> Scoring method: each normative MUST requirement in the spec counts as 1 point. Fully addressed = 1, partially addressed = 0.5, not addressed = 0. Total ~200 normative MUST requirements identified across Layers 0–6 (updated to reflect Identity Constraints Register as a 4th Layer 0 artifact per RCOS-Core v0.1 spec 2026-04-27). Score: ~187/200 ≈ 94% (§3.5.3 closed 2026-08-31). Layer 0 reduced from 98% to 95% because two ecological constraints (IC-004, IC-005) have partial enforcement (measurable threshold deferred).
 
 ### Formal Adoption (artifacts voted and adopted through ecohubsOS)
 
@@ -84,10 +84,10 @@ Overall formal adoption           ████░░░░░░░░░░░�
 
 | Artifact | File | Status | Notes |
 |---|---|---|---|
-| Membership Agreement | [layers/1-membership/01-membership-agreement.md](../layers/1-membership/01-membership-agreement.md) | Draft | Content complete; not yet adopted |
-| Onboarding Protocol | [layers/1-membership/02-onboarding-protocol.md](../layers/1-membership/02-onboarding-protocol.md) | Draft | Content complete; several technical implementations pending — see [missing-technical-implementations.md](../resources/missing-technical-implementations.md) |
-| Exit & Separation Protocol | [layers/1-membership/03-exit-separation-protocol.md](../layers/1-membership/03-exit-separation-protocol.md) | Draft | Content complete; exit flow in ecohubsOS not yet implemented — see [missing-technical-implementations.md](../resources/missing-technical-implementations.md) |
-| Membership State Registry | [layers/1-membership/04-membership-state-registry.md](../layers/1-membership/04-membership-state-registry.md) | Draft | Content complete; not yet adopted |
+| Membership Agreement | [layers/1-membership/01-membership-agreement.md](../layers/1-membership/01-membership-agreement.md) | Draft | Content complete; Substitution of Participation added 2026-08-31, closing the §3.5.3 gap; not yet adopted |
+| Onboarding Protocol | [layers/1-membership/02-onboarding-protocol.md](../layers/1-membership/02-onboarding-protocol.md) | Draft | Content complete; trial transition now tied to reaching Level 1 rather than onboarding completion. Several technical implementations pending — see [missing-technical-implementations.md](../resources/missing-technical-implementations.md) |
+| Exit & Separation Protocol | [layers/1-membership/03-exit-separation-protocol.md](../layers/1-membership/03-exit-separation-protocol.md) | Draft | Content complete; Suspension (Standby) defined 2026-08-31 now that ecohubsOS implements it. Exit flow implemented; member-initiated exit and standby requests still pending — see [missing-technical-implementations.md](../resources/missing-technical-implementations.md) |
+| Membership State Registry | [layers/1-membership/04-membership-state-registry.md](../layers/1-membership/04-membership-state-registry.md) | Draft | Content complete; states redefined 2026-08-31 (Standby added, Steward/Admin recorded as roles rather than states); not yet adopted |
 
 ---
 
@@ -109,7 +109,7 @@ Overall formal adoption           ████░░░░░░░░░░░�
 
 | Artifact | File | Status | Notes |
 |---|---|---|---|
-| Internal Economy Protocol | [layers/3-economy/01-internal-economy-protocol.md](../layers/3-economy/01-internal-economy-protocol.md) | Draft | Content complete; ECO expiration/decay mechanism deferred; concentration risk indicators not yet defined — see [future-proposals.md](../resources/future-proposals.md) |
+| Internal Economy Protocol | [layers/3-economy/01-internal-economy-protocol.md](../layers/3-economy/01-internal-economy-protocol.md) | Draft | Content complete; recognition effects corrected 2026-08-31 (XP now drives the Trial → Full Member transition) and unit attribution for substituted work added; ECO expiration/decay mechanism deferred; concentration risk indicators not yet defined — see [future-proposals.md](../resources/future-proposals.md) |
 | Treasury Ruleset | [layers/3-economy/02-treasury-ruleset.md](../layers/3-economy/02-treasury-ruleset.md) | Draft | Content complete; treasury spending thresholds deferred until community funds exist — see [future-proposals.md](../resources/future-proposals.md) |
 
 ---
@@ -169,6 +169,13 @@ Items are grouped by whether they are addressed, partially addressed, or still o
 | §8.3.5 | If experiment introduces safety risk, MUST suspend or terminate immediately with post-hoc review | **Fixed** — Safety suspension clause added to Change Protocol |
 | §8.6.5 | Learning Log MUST define what constitutes a learnable event, documentation ownership, and review/synthesis cadence | **Fixed** — "What Constitutes a Learnable Event" section added to Learning Log |
 
+### Fixed During the Layer 1 Update (2026-08-31)
+
+| Ref | Requirement | Resolution |
+|---|---|---|
+| §3.5.3 | Substitution of participation (e.g., outsourcing labor) MUST be explicitly governed | **Fixed** — "Substitution of Participation" section added to the Membership Agreement: what may be substituted, what may never be substituted (voting, proposals, consent, conflict participation, role authority), substitution by non-members, and the rule that substituted work discharges the task but not the member's own participation obligation. Unit attribution mirrored in the Internal Economy Protocol |
+| §3.7.2, §3.7.3 | Suspension conditions MUST be explicit, time-bounded and reviewable; suspension MUST NOT be an indefinite or punitive substitute for exit | **Fixed** — Standby defined as a membership state with three entry routes, a 14-day review deadline for an inconclusive case, a 12-month cap, automatic restoration where the community declines removal, and a bar on reopening a case on the same facts |
+
 ### Partially Addressed — Open Items (REQUIRED)
 
 These are genuine gaps that require more design work or governance decisions to fully resolve. They are not errors in the current artifacts but represent requirements not yet completely satisfied.
@@ -176,7 +183,6 @@ These are genuine gaps that require more design work or governance decisions to 
 | Ref | Requirement | Status | Notes |
 |---|---|---|---|
 | §2.4.3 | Identity constraints MUST be testable and enforceable through defined processes | **Partial** | Identity Constraints Register (IC-001 through IC-008) created 2026-04-27, adopted 2026-07-03. IC-001–003 and IC-006–008 have defined enforcement pathways via Layer 4 and Layer 2. IC-004–005 (ecological constraints) have behavioral/process enforcement but lack measurable thresholds — "sustained net harm" and "significant decision" are not yet defined in measurable terms for the networked community context. Threshold definition deferred — see [future-proposals.md](../resources/future-proposals.md) | 
-| §3.5.3 | Substitution of participation (e.g., outsourcing labor) MUST be explicitly governed | **Not addressed** | The Membership Agreement defines participation expectations and contribution categories but does not address whether a member may have others perform their contributions on their behalf. **REQUIRED.** Add a clause to the Membership Agreement or Internal Economy Protocol. |
 | §5.1.4 | For commons resources, MUST explicitly define stewardship responsibilities, maintenance obligations, and funding mechanisms | **Partial** | The IEP resource table lists stewards and access rules. Maintenance obligations are implied (Infrastructure Steward for platforms) but not explicit per-resource. Funding mechanisms (operational costs) are covered in the Treasury Ruleset. Add a "Maintenance obligations" column or sub-note to the IEP resource table. |
 | §5.4.4 | MUST define reviewable indicators of economic concentration risk and an explicit mechanism to adjust constraints when such risks are detected | **Not addressed** | No concentration risk indicators defined. Given current early stage (one member, no significant balances), this is low-risk but still a MUST requirement. **REQUIRED.** Define simple indicators (e.g., if one member holds >50% of total ECO balance, a review is triggered) and a review/adjustment pathway. |
 
@@ -188,7 +194,7 @@ These items are deferred because they require a community governance decision to
 |---|---|---|---|
 | ECO expiration / decay mechanism | §5.2.4 + §5.4.2 — if internal units exist, MUST define expiration/decay/cap | Medium | Non-transferability currently serves as the single accumulation-limiting mechanism (satisfies §5.4.2 minimum). Expiration/decay would add additional protection. Deferred — see [future-proposals.md](../resources/future-proposals.md) |
 | Treasury spending thresholds | §5.3.3 — spending authority MUST be explicitly bounded by thresholds | Low urgency | Finance Steward currently has €0 unilateral authority (effectively no spending authority). Thresholds should be defined once community funds exist. Deferred — see [future-proposals.md](../resources/future-proposals.md) |
-| Suspended Member state | §3.7 (MAY) — temporary suspension states | Low | Technically not yet feasible in ecohubsOS. **Optional** per spec. Deferred — see [future-proposals.md](../resources/future-proposals.md) |
+| Suspended Member state | §3.7 (MAY) — temporary suspension states | — | **Resolved 2026-08-31.** ecohubsOS implements a distinct standby status; Standby is now a defined membership state with §3.7.2 time bounds and §3.7.3 anti-substitution rules — see the Membership State Registry and the Exit & Separation Protocol |
 | Consent-based decision-making for Strategic decisions | §4.2.2 (MAY) — alternatives to majority vote | Low | Currently using simple majority for Strategic decisions. Consent-based approach is optional. Deferred. |
 
 ---
@@ -206,14 +212,16 @@ All artifacts have substantive content. Layer 0 (4 artifacts) completed this pat
 The version history stays on **0.x until compliance is reached**; the adoption that closes the last artifact and the last content gap is recorded as **v1.0**. Current version: v0.4.
 
 **Remaining content gaps to resolve before claiming compliance** (from "Partially Addressed — Open Items" above):
-- §3.5.3 — Substitution of participation rule (Membership Agreement or IEP)
 - §5.1.4 — Per-commons maintenance obligations (IEP resource table)
 - §5.4.4 — Economic concentration risk indicators (IEP)
 - §2.4.3 — Ecological identity constraint measurable thresholds (IC-004/IC-005 in Identity Constraints Register — behavioral enforcement exists; numerical definition deferred)
 
 **Open technical gaps** (required for full operational compliance — see [missing-technical-implementations.md](../resources/missing-technical-implementations.md)):
-- Member exit flow in ecohubsOS
 - Voluntary exit request flow in ecohubsOS
+- Standby upon a member's own request
+- Removal vote must use the Strategic decision threshold (currently Operational in ecohubsOS)
+- Steward-review deadline for an inconclusive disciplinary case
+- Maximum trial duration review
 - Artifact links in onboarding flow
 - Explicit in-app consent to Membership Agreement and Layer 0
 - Onboarding reminder emails and expiry notifications

@@ -17,7 +17,7 @@ If a process only lives in one person's head, the community depends on that pers
 
 | Process | Who | Detail |
 |---|---|---|
-| Member onboarding | Membership Admin | Processes application, triggers trial period, monitors 30-day window, grants Full Member status on completion — see Onboarding Protocol (Layer 1) |
+| Member onboarding | Membership Admin | Processes application, triggers trial period, monitors the 30-day onboarding window and the trial period; Full Member status is granted automatically on reaching Level 1 — see Onboarding Protocol (Layer 1) |
 | Member exit | Membership Admin | Processes voluntary exit request or forced exit per Layer 4 outcome — see Exit & Separation Protocol (Layer 1) |
 | Proposal publication | Proposing member + Membership Admin | Proposing member submits the proposal in the ecohubsOS voting app; Membership Admin adds proposal file to `proposals/passed/` or `proposals/rejected/` within 7 days of vote conclusion; affected artifacts updated within 7 days — see Governance Protocol (Layer 2) |
 | Contribution recording | Member (self-reported) / Puckstack (automatic) | Structured contributions credited automatically via Puckstack/Offcoin; informal contributions self-reported in ecohubsOS — see Internal Economy Protocol (Layer 3) |

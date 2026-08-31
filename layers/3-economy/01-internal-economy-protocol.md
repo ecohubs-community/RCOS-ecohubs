@@ -60,7 +60,8 @@ Without a defined mechanism, "who gets credit" becomes a matter of who is loudes
   - Structured: automatically via Puckstack task completion → XP/ECO credited via Offcoin
   - Informal/other: self-reported by the member in ecohubsOS or Discord; no validation required for informal participation
 - **Who validates:** Structured contributions validated automatically by Puckstack/Offcoin; significant contributions (e.g. major artifacts, facilitation work) may be nominated by any member for additional XP via the Membership Admin
-- **Effect on access/privileges:** Contribution recognition affects XP and ECO balance only — it does not grant additional governance rights beyond what the membership state defines
+- **Effect on access/privileges:** XP is a membership-state signal as well as a balance: reaching Level 1 transitions a Trial Member to Full Member and with it grants voting rights (see Onboarding Protocol, Layer 1). Beyond that transition, recognition grants no governance rights other than those the member's state already defines, and ECO grants none at all. Because XP carries this weight, reward grants by stewards are capped, attributed to the granting steward with a reason, and published — see Contribution Recognition above and the Role Registry (Layer 5)
+- **Substituted work:** Units follow the person who performed the work, and only where that person is a member. Work done on a member's behalf earns that member nothing — see Substitution of Participation in the Membership Agreement (Layer 1)
 - **Dispute:** Any member may contest a contribution record within 30 days; disputes resolved by Membership Admin with right of appeal to Full Members
 
 ## Internal Units

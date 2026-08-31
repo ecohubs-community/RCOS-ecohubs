@@ -38,14 +38,6 @@ Governance and design decisions that are deferred — either because they depend
 **What to define:** Simple indicators (e.g., if one member holds >50% of total ECO supply, a review is triggered automatically at the next Reflection & Learning meeting); adjustment pathway (Strategic vote to tighten constraints)  
 **RCOS requirement:** REQUIRED
 
-### Substitution of Participation Rule
-
-**Deferred until:** First governance adoption cycle  
-**Required by:** §3.5.3 — substitution of participation (outsourcing contributions to non-members) must be explicitly governed  
-**What to define:** Whether members may have third parties perform contributions on their behalf; if yes, under what conditions; whether such contributions count toward participation expectations  
-**RCOS requirement:** REQUIRED — currently unaddressed in any artifact  
-**Where to add:** Membership Agreement or Internal Economy Protocol
-
 ### Per-Commons Resource Maintenance Obligations
 
 **Deferred until:** First governance adoption cycle  
@@ -57,19 +49,6 @@ Governance and design decisions that are deferred — either because they depend
 ---
 
 ## Low Priority / Optional
-
-### Suspended Member State
-
-**Deferred until:** ecohubsOS supports differentiated access control  
-**Required by:** §3.7 (MAY) — temporary suspension states are optional under RCOS  
-**What to define:** Formal suspension state with time bounds and review process; access limitations during suspension; distinction from temporary access restriction (Layer 4 measure)  
-**Context:** Discussed during the Layer 1 definition process. Intended to let members temporarily pause membership (illness, life events, or a conflict under review in Layer 4) without fully exiting, with a duration cap of up to 12 months, renewable once.  
-**Proposed rights during suspension:** Access to public Discord channels and public calls (listener); access to personal ecohubsOS profile; right to request reinstatement at any time  
-**Proposed obligations during suspension:** None, other than adherence to the Layer 0 identity constraints  
-**Blocker:** ecohubsOS has no technical differentiation between Full Member and Suspended Member — Discord permissions, voting eligibility, and platform access would each need to support a distinct suspended state  
-**Layers affected:** Layer 1 (Membership State Registry, Membership Agreement, Exit & Separation Protocol)  
-**RCOS requirement:** OPTIONAL — §3.7 says "MAY define"  
-**See also:** Exit & Separation Protocol notes this as not yet technically feasible
 
 ### Consent-Based Decision Making for Strategic Decisions
 
@@ -86,3 +65,20 @@ Governance and design decisions that are deferred — either because they depend
 **Required by:** §2.4.3 — identity constraints MUST be testable and enforceable through defined processes  
 **What to define:** Measurable criteria for what constitutes "sustained net harm to local ecosystems"; enforcement pathway for the EcoHubs network context (as a steward of the standard, not an operator of physical land); how the Layer 4 accountability process would handle an ecological harm concern  
 **RCOS requirement:** REQUIRED (partially addressed — behavioral constraints enforced via Layer 4; ecological constraints lack a defined enforcement mechanism)
+
+---
+
+## Resolved
+
+### Suspended Member State — resolved 2026-08-31
+
+**Was deferred until:** ecohubsOS supports differentiated access control
+**RCOS requirement:** OPTIONAL — §3.7 says "MAY define"
+**Resolution:** The blocker is gone. ecohubsOS implements a distinct `standby` membership status with its own access rules: a standby member reaches a gated reactivation screen instead of the desktop, cannot vote or propose, and can request reactivation by a community vote. Standby is now defined as a membership state in the Membership State Registry and governed by the Suspension (Standby) section of the Exit & Separation Protocol, covering all three entry routes (own request, inactivity, protective suspension pending a community decision), the time bounds required by §3.7.2, and the anti-substitution rule required by §3.7.3.
+**Remaining technical gaps:** Standby upon a member's own request, the 14-day steward-review deadline for an inconclusive case, and the decision threshold used for removal votes — see [missing-technical-implementations.md](missing-technical-implementations.md)
+
+### Substitution of Participation Rule — resolved 2026-08-31
+
+**Was deferred until:** First governance adoption cycle
+**Required by:** §3.5.3 — substitution of participation must be explicitly governed
+**Resolution:** "Substitution of Participation" added to the Membership Agreement. Work on a task may be delegated, including to a non-member, but the personal acts of membership — voting, authoring proposals, consenting to the agreement, taking part in a conflict process, exercising role authority — may never be. Substituted work discharges the task without counting toward the delegating member's own participation, XP and ECO follow whoever did the work and only where they are a member, and a Trial Member cannot reach Level 1 on work done by someone else. Unit attribution is mirrored in the Internal Economy Protocol.
