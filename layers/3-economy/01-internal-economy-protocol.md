@@ -8,7 +8,7 @@
 
 ## Commons vs. Private Classification
 
-:::rcos{clauses="5.1.1, 5.1.2, 5.1.3, 5.1.4, 5.1.5, 5.6.2"}
+:::rcos{clauses="5.1.1, 5.1.2, 5.1.3, 5.1.4, 5.1.5, 5.5.3, 5.6.2"}
 :::
 
 :::rationale{title="Why classify every resource?"}
@@ -28,7 +28,7 @@ Unclassified resources are where quiet privatization happens — someone starts 
 
 ## Recognized Contribution Categories
 
-:::rcos{clauses="5.2.1, 5.2.3, 5.6.3"}
+:::rcos{clauses="5.2.1, 5.2.3, 5.5.3, 5.6.3"}
 :::
 
 :::rationale{title="Why name the kinds of work that count?"}
@@ -48,7 +48,7 @@ If the community never says out loud which kinds of work it depends on, the invi
 
 ## Contribution Recognition Mechanism
 
-:::rcos{clauses="5.2.2, 5.2.5"}
+:::rcos{clauses="5.2.2, 5.2.5, 5.5.3"}
 :::
 
 :::rationale{title="Why pin down how recognition actually works?"}
@@ -66,7 +66,7 @@ Without a defined mechanism, "who gets credit" becomes a matter of who is loudes
 
 ## Internal Units
 
-:::rcos{clauses="5.2.4, 5.2.5"}
+:::rcos{clauses="5.2.4, 5.2.5, 5.5.3"}
 :::
 
 :::rationale{title="Why define XP and ECO this precisely?"}
@@ -90,7 +90,7 @@ Two internal units are in use: **XP** (experience points) and **ECO** (community
 
 ## Accumulation Constraints
 
-:::rcos{clauses="5.4.1, 5.4.2, 5.4.3, 5.4.4, 5.6.4"}
+:::rcos{clauses="5.4.1, 5.4.2, 5.4.3, 5.4.4, 5.5.3, 5.6.4"}
 :::
 
 :::rationale{title="Why constrain accumulation at all?"}
@@ -103,7 +103,7 @@ Any internal unit that can pile up without limit eventually becomes leverage —
 
 ## External Income Interfaces
 
-:::rcos{clauses="5.3.2"}
+:::rcos{clauses="5.3.2, 5.5.3"}
 :::
 
 :::rationale{title="Why require approval before money arrives?"}

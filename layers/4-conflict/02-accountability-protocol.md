@@ -52,7 +52,7 @@ Accountability without due process is just punishment with paperwork. A member f
 
 ## Anti-Retaliation Protections
 
-:::rcos{clauses="6.3.2"}
+:::rcos{clauses="6.3.2, 6.5.4"}
 :::
 
 :::rationale{title="Why protect participants explicitly?"}
@@ -82,7 +82,7 @@ Ad-hoc sanctions invented mid-process reflect whoever is loudest in the room, no
 
 ## Conditions for Restoring Rights
 
-:::rcos{clauses="6.4.4"}
+:::rcos{clauses="6.4.3, 6.4.4"}
 :::
 
 :::rationale{title="Why make restoration conditions explicit?"}
@@ -95,7 +95,7 @@ If there is no defined path back, every sanction becomes effectively permanent a
 
 ## Coordination with Layer 1
 
-:::rcos{clauses="6.4.4"}
+:::rcos{clauses="6.4.4, 6.5.4"}
 :::
 
 :::rationale{title="Why tie this to the Exit & Separation Protocol?"}

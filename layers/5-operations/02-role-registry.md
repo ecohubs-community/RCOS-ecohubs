@@ -143,7 +143,7 @@ Communications is where the community meets the world — and where drift from v
 
 ## Functional Roles
 
-:::rcos{clauses="7.1.1, 7.1.2"}
+:::rcos{clauses="7.1.1, 7.1.2, 7.1.3"}
 :::
 
 :::rationale{title="Why separate functional from operational roles?"}
@@ -156,7 +156,7 @@ Functional roles define a member's contribution scope. They carry no delegated g
 
 ### Facilitator
 
-:::rcos{clauses="7.1.2"}
+:::rcos{clauses="7.1.2, 7.1.3"}
 :::
 
 :::rationale{title="Why a Facilitator role?"}
@@ -179,7 +179,7 @@ Meetings and conflicts need someone holding the container who isn't a party to t
 
 ### Community Connector
 
-:::rcos{clauses="7.1.2"}
+:::rcos{clauses="7.1.2, 7.1.3"}
 :::
 
 :::rationale{title="Why a Community Connector role?"}
@@ -200,7 +200,7 @@ Relationships across communities don't maintain themselves. Naming this role mak
 
 ### Content Creator
 
-:::rcos{clauses="7.1.2"}
+:::rcos{clauses="7.1.2, 7.1.3"}
 :::
 
 :::rationale{title="Why a Content Creator role?"}
@@ -221,7 +221,7 @@ The community's story gets told whether or not anyone is in charge of telling it
 
 ### Blueprint Steward
 
-:::rcos{clauses="7.1.2"}
+:::rcos{clauses="7.1.2, 7.1.3"}
 :::
 
 :::rationale{title="Why a Blueprint Steward role?"}
@@ -242,7 +242,7 @@ RCOS only stays useful if someone is tracking how the framework meets practice a
 
 ### Digital Builder
 
-:::rcos{clauses="7.1.2"}
+:::rcos{clauses="7.1.2, 7.1.3"}
 :::
 
 :::rationale{title="Why a Digital Builder role?"}
@@ -263,7 +263,7 @@ Platform features and tooling are downstream of RCOS requirements — someone ha
 
 ### Strategy & Initiatives Facilitator
 
-:::rcos{clauses="7.1.2"}
+:::rcos{clauses="7.1.2, 7.1.3"}
 :::
 
 :::rationale{title="Why facilitate strategy instead of owning it?"}
@@ -284,7 +284,7 @@ Strategic direction belongs to Full Members collectively — but someone has to 
 
 ### Research Steward
 
-:::rcos{clauses="7.1.2"}
+:::rcos{clauses="7.1.2, 7.1.3"}
 :::
 
 :::rationale{title="Why a Research Steward role?"}
@@ -305,7 +305,7 @@ Without someone whose job it is to bring in evidence, the community improves its
 
 ### Regenerative Workshop Curator
 
-:::rcos{clauses="7.1.2"}
+:::rcos{clauses="7.1.2, 7.1.3"}
 :::
 
 :::rationale{title="Why a Workshop Curator role?"}

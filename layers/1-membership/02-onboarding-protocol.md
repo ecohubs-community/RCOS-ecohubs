@@ -58,7 +58,7 @@ Consent to governance only means something if the member has actually seen the g
 
 ## Initial Membership State
 
-:::rcos{clauses="3.1.2, 3.1.4"}
+:::rcos{clauses="3.1.2, 3.1.4, 3.2.2"}
 :::
 
 :::rationale{title="Why assign a state at each step?"}
