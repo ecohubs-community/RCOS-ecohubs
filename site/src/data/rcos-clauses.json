@@ -46,7 +46,12 @@
     "layer": 0,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "22-scope-declaration",
-    "sectionHeading": "2.2 Scope Declaration"
+    "sectionHeading": "2.2 Scope Declaration",
+    "items": [
+      "Assets governed by the community",
+      "Domains of decision-making authority",
+      "Activities and responsibilities under collective control"
+    ]
   },
   "2.2.3": {
     "text": "The scope declaration MUST explicitly list what is out of scope.",
@@ -123,7 +128,12 @@
     "layer": 0,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "24-identity-constraints",
-    "sectionHeading": "2.4 Identity Constraints"
+    "sectionHeading": "2.4 Identity Constraints",
+    "items": [
+      "Ethical or behavioral boundaries",
+      "Participation prerequisites",
+      "Non-negotiable cultural or ecological constraints"
+    ]
   },
   "2.4.3": {
     "text": "Identity constraints MUST be testable and enforceable through defined processes.",
@@ -144,14 +154,25 @@
     "layer": 0,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "25-artifacts",
-    "sectionHeading": "2.5 Artifacts"
+    "sectionHeading": "2.5 Artifacts",
+    "items": [
+      "Purpose Charter",
+      "Scope Declaration",
+      "Invariants Register",
+      "Identity Constraints Register"
+    ]
   },
   "2.5.2": {
     "text": "Layer 0 artifacts MUST be:",
     "layer": 0,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-0-identity-scope",
     "sectionAnchor": "25-artifacts",
-    "sectionHeading": "2.5 Artifacts"
+    "sectionHeading": "2.5 Artifacts",
+    "items": [
+      "Publicly accessible to all members",
+      "Versioned",
+      "Adopted through a formal ratification process"
+    ]
   },
   "2.5.3": {
     "text": "If Layer 0 artifacts are missing, ambiguous, or internally contradictory, the community MUST be considered non-compliant with RCOS-Core.",
@@ -172,7 +193,13 @@
     "layer": 1,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "31-membership-states",
-    "sectionHeading": "3.1 Membership States"
+    "sectionHeading": "3.1 Membership States",
+    "items": [
+      "Applicant",
+      "Trial / Probationary Member",
+      "Full Member",
+      "Exited Member"
+    ]
   },
   "3.1.3": {
     "text": "Each membership state MUST have clearly defined rights, obligations, and limitations.",
@@ -207,7 +234,12 @@
     "layer": 1,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "32-entry-and-onboarding",
-    "sectionHeading": "3.2 Entry and Onboarding"
+    "sectionHeading": "3.2 Entry and Onboarding",
+    "items": [
+      "Review of all RCOS-Core artifacts",
+      "Explicit consent to Layer 0 and Layer 1 rules",
+      "Declaration of initial membership state"
+    ]
   },
   "3.2.3": {
     "text": "Admission criteria MUST be explicit and documented.",
@@ -235,7 +267,12 @@
     "layer": 1,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "33-trial-and-evaluation",
-    "sectionHeading": "3.3 Trial and Evaluation"
+    "sectionHeading": "3.3 Trial and Evaluation",
+    "items": [
+      "A defined duration",
+      "Explicit evaluation criteria",
+      "A clear transition decision process"
+    ]
   },
   "3.3.3": {
     "text": "During probation, rights MAY be limited but obligations MUST be explicit.",
@@ -375,14 +412,25 @@
     "layer": 1,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "38-artifacts",
-    "sectionHeading": "3.8 Artifacts"
+    "sectionHeading": "3.8 Artifacts",
+    "items": [
+      "Membership Agreement",
+      "Onboarding Protocol",
+      "Exit & Separation Protocol",
+      "Membership State Registry"
+    ]
   },
   "3.8.2": {
     "text": "Layer 1 artifacts MUST be:",
     "layer": 1,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-1-membership-system",
     "sectionAnchor": "38-artifacts",
-    "sectionHeading": "3.8 Artifacts"
+    "sectionHeading": "3.8 Artifacts",
+    "items": [
+      "Explicit and unambiguous",
+      "Versioned",
+      "Accessible to all members"
+    ]
   },
   "3.8.3": {
     "text": "Absence, ambiguity, or systematic violation of Layer 1 artifacts MUST result in loss of RCOS-Core compliance.",
@@ -396,7 +444,12 @@
     "layer": 2,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "41-decision-types",
-    "sectionHeading": "4.1 Decision Types"
+    "sectionHeading": "4.1 Decision Types",
+    "items": [
+      "Operational Decisions",
+      "Strategic Decisions",
+      "Constitutional Decisions"
+    ]
   },
   "4.1.2": {
     "text": "Operational Decisions concern day-to-day functioning and execution within existing rules.",
@@ -438,14 +491,27 @@
     "layer": 2,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "42-decision-mechanisms",
-    "sectionHeading": "4.2 Decision Mechanisms"
+    "sectionHeading": "4.2 Decision Mechanisms",
+    "items": [
+      "Consent-based decision-making",
+      "Majority vote",
+      "Supermajority vote",
+      "Delegated authority",
+      "Randomized or rotational assignment"
+    ]
   },
   "4.2.3": {
     "text": "Decision mechanisms MUST specify:",
     "layer": 2,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "42-decision-mechanisms",
-    "sectionHeading": "4.2 Decision Mechanisms"
+    "sectionHeading": "4.2 Decision Mechanisms",
+    "items": [
+      "Eligible participants",
+      "Decision thresholds",
+      "Blocking or veto conditions, if any",
+      "Time constraints"
+    ]
   },
   "4.2.4": {
     "text": "No informal or ad hoc decision mechanism MAY be used for collective decisions.",
@@ -466,7 +532,12 @@
     "layer": 2,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "43-authority-boundaries",
-    "sectionHeading": "4.3 Authority Boundaries"
+    "sectionHeading": "4.3 Authority Boundaries",
+    "items": [
+      "Scope of authority",
+      "Limits of authority",
+      "Duration or term, if applicable"
+    ]
   },
   "4.3.3": {
     "text": "No individual or body MAY exercise authority outside its explicitly assigned scope.",
@@ -501,7 +572,15 @@
     "layer": 2,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "44-decision-matrix",
-    "sectionHeading": "4.4 Decision Matrix"
+    "sectionHeading": "4.4 Decision Matrix",
+    "items": [
+      "Decision type",
+      "Decision domain",
+      "Authorized role or body",
+      "Decision mechanism",
+      "Approval threshold",
+      "Escalation path"
+    ]
   },
   "4.4.3": {
     "text": "The Decision Matrix MUST be publicly accessible to all members.",
@@ -529,7 +608,14 @@
     "layer": 2,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "45-governance-protocol",
-    "sectionHeading": "4.5 Governance Protocol"
+    "sectionHeading": "4.5 Governance Protocol",
+    "items": [
+      "Proposal submission requirements",
+      "Review and deliberation process",
+      "Decision execution",
+      "Documentation and publication",
+      "Appeal and review mechanisms"
+    ]
   },
   "4.5.3": {
     "text": "The Governance Protocol MUST define how conflicts between decisions are resolved.",
@@ -550,7 +636,13 @@
     "layer": 2,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "46-safeguards-and-failure-modes",
-    "sectionHeading": "4.6 Safeguards and Failure Modes"
+    "sectionHeading": "4.6 Safeguards and Failure Modes",
+    "items": [
+      "Concentration of decision power",
+      "Informal vetoes",
+      "Decision capture by subgroups",
+      "Founder or role entrenchment"
+    ]
   },
   "4.6.2": {
     "text": "Governance mechanisms MUST allow for challenge and review without retaliation.",
@@ -571,14 +663,24 @@
     "layer": 2,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "47-artifacts",
-    "sectionHeading": "4.7 Artifacts"
+    "sectionHeading": "4.7 Artifacts",
+    "items": [
+      "Decision Matrix",
+      "Governance Protocol",
+      "Authority Registry"
+    ]
   },
   "4.7.2": {
     "text": "Layer 2 artifacts MUST be:",
     "layer": 2,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-2-governance-decision-logic",
     "sectionAnchor": "47-artifacts",
-    "sectionHeading": "4.7 Artifacts"
+    "sectionHeading": "4.7 Artifacts",
+    "items": [
+      "Explicit and unambiguous",
+      "Versioned",
+      "Accessible to all members"
+    ]
   },
   "4.7.3": {
     "text": "Absence, ambiguity, or systematic violation of Layer 2 artifacts MUST result in loss of RCOS-Core compliance.",
@@ -599,7 +701,14 @@
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "51-commons-vs-private-resources",
-    "sectionHeading": "5.1 Commons vs Private Resources"
+    "sectionHeading": "5.1 Commons vs Private Resources",
+    "items": [
+      "Resource name or unique identifier",
+      "Classification (commons or private)",
+      "Steward or owner (as applicable)",
+      "Access and use rules",
+      "Transfer, sale, or privatization constraints (if any)"
+    ]
   },
   "5.1.3": {
     "text": "Any resource not explicitly classified MUST be treated as **unclassified**, and the community MUST NOT allocate, encumber, monetize, or transfer it until classification is completed through an authorized decision.",
@@ -613,7 +722,13 @@
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "51-commons-vs-private-resources",
-    "sectionHeading": "5.1 Commons vs Private Resources"
+    "sectionHeading": "5.1 Commons vs Private Resources",
+    "items": [
+      "Stewardship responsibilities",
+      "The authorized decision-making body or role",
+      "Maintenance obligations",
+      "Funding or contribution mechanisms (if any)"
+    ]
   },
   "5.1.5": {
     "text": "For private resources, the community MUST NOT exercise authority beyond what is explicitly declared in the scope, membership agreements, or other governed artifacts.",
@@ -627,14 +742,27 @@
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "52-contribution-recognition",
-    "sectionHeading": "5.2 Contribution Recognition"
+    "sectionHeading": "5.2 Contribution Recognition",
+    "items": [
+      "Labor",
+      "Care and emotional work",
+      "Knowledge and education",
+      "Stewardship and maintenance",
+      "Administrative or coordination work"
+    ]
   },
   "5.2.2": {
     "text": "The community MUST define a contribution recognition mechanism specifying:",
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "52-contribution-recognition",
-    "sectionHeading": "5.2 Contribution Recognition"
+    "sectionHeading": "5.2 Contribution Recognition",
+    "items": [
+      "What qualifies as a contribution",
+      "How contributions are recorded or acknowledged",
+      "Who may record, validate, or contest contributions",
+      "Whether and how contribution recognition affects access to resources, privileges, or obligations"
+    ]
   },
   "5.2.3": {
     "text": "The community MUST NOT structurally depend on unpaid, invisible, or informal labor for system survival without explicitly defining corresponding obligations, recognition, or compensation mechanisms.",
@@ -648,7 +776,14 @@
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "52-contribution-recognition",
-    "sectionHeading": "5.2 Contribution Recognition"
+    "sectionHeading": "5.2 Contribution Recognition",
+    "items": [
+      "Issuance rules",
+      "Transferability rules",
+      "Expiration, decay, or cap mechanisms (if any)",
+      "Fraud prevention, dispute handling, and correction mechanisms",
+      "Privacy and transparency rules for balances and transactions"
+    ]
   },
   "5.2.5": {
     "text": "Contribution recognition MUST NOT create implicit decision authority, veto power, or governance influence beyond what is defined in Layer 2.",
@@ -676,7 +811,13 @@
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "53-treasury-management",
-    "sectionHeading": "5.3 Treasury Management"
+    "sectionHeading": "5.3 Treasury Management",
+    "items": [
+      "Clear authority assignments",
+      "Thresholds by amount and/or category",
+      "Approval and escalation paths",
+      "Mandatory recordkeeping requirements"
+    ]
   },
   "5.3.4": {
     "text": "Transparency MUST be the default for treasury balances, inflows, outflows, obligations, and commitments.",
@@ -697,7 +838,12 @@
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "53-treasury-management",
-    "sectionHeading": "5.3 Treasury Management"
+    "sectionHeading": "5.3 Treasury Management",
+    "items": [
+      "Limits on debt",
+      "Long-term obligations",
+      "Contingency reserves (if any)"
+    ]
   },
   "5.4.1": {
     "text": "Internal economic systems MUST prevent unbounded concentration of internal influence or control through resources, credits, or financial obligations.",
@@ -711,7 +857,14 @@
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "54-accumulation-constraints",
-    "sectionHeading": "5.4 Accumulation Constraints"
+    "sectionHeading": "5.4 Accumulation Constraints",
+    "items": [
+      "Caps",
+      "Decay or expiration",
+      "Non-transferability",
+      "Redistribution or taxation mechanisms",
+      "Time-bounded validity"
+    ]
   },
   "5.4.3": {
     "text": "Economic mechanisms MUST NOT allow members to bypass governance authority boundaries defined in Layer 2, including through purchasing influence, creating dependency, or converting economic power into informal decision authority.",
@@ -732,28 +885,52 @@
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "55-artifacts",
-    "sectionHeading": "5.5 Artifacts"
+    "sectionHeading": "5.5 Artifacts",
+    "items": [
+      "Internal Economy Protocol",
+      "Treasury Ruleset"
+    ]
   },
   "5.5.2": {
     "text": "Layer 3 artifacts MUST be:",
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "55-artifacts",
-    "sectionHeading": "5.5 Artifacts"
+    "sectionHeading": "5.5 Artifacts",
+    "items": [
+      "Explicit and unambiguous",
+      "Versioned",
+      "Accessible to all members (with explicit, bounded exceptions)",
+      "Adopted through an authorized governance process"
+    ]
   },
   "5.5.3": {
     "text": "The Internal Economy Protocol MUST define, at minimum:",
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "55-artifacts",
-    "sectionHeading": "5.5 Artifacts"
+    "sectionHeading": "5.5 Artifacts",
+    "items": [
+      "Contribution categories and recognition mechanisms",
+      "Commons vs private boundaries and allocation rules",
+      "Internal units (if any) and accumulation constraints",
+      "External income interfaces (if any)",
+      "Dispute resolution and correction mechanisms for economic records"
+    ]
   },
   "5.5.4": {
     "text": "The Treasury Ruleset MUST define, at minimum:",
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "55-artifacts",
-    "sectionHeading": "5.5 Artifacts"
+    "sectionHeading": "5.5 Artifacts",
+    "items": [
+      "Income sources",
+      "Spending authority thresholds and approval paths",
+      "Transparency and reporting requirements (including any bounded exceptions)",
+      "Reserve, risk, and debt constraints",
+      "Conflict-of-interest rules for spending and procurement"
+    ]
   },
   "5.6.1": {
     "text": "Shared resources, flows, and obligations MUST be visible to the community by default, with only limited and explicit exceptions.",
@@ -788,21 +965,38 @@
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "57-explicitness-rules",
-    "sectionHeading": "5.7 Explicitness Rules"
+    "sectionHeading": "5.7 Explicitness Rules",
+    "items": [
+      "Commons vs private classifications",
+      "Allocation and access rules for shared resources",
+      "Spending authority limits",
+      "Transparency rules",
+      "External income interfaces"
+    ]
   },
   "5.7.2": {
     "text": "The following MAY be explicit:",
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "57-explicitness-rules",
-    "sectionHeading": "5.7 Explicitness Rules"
+    "sectionHeading": "5.7 Explicitness Rules",
+    "items": [
+      "Contribution valuation models",
+      "Internal units (tokens, hours, points)",
+      "Budget categories and internal accounting structures"
+    ]
   },
   "5.7.3": {
     "text": "The following MUST remain optional and out of scope:",
     "layer": 3,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-3-economic-resource-system",
     "sectionAnchor": "57-explicitness-rules",
-    "sectionHeading": "5.7 Explicitness Rules"
+    "sectionHeading": "5.7 Explicitness Rules",
+    "items": [
+      "Attitudes toward wealth",
+      "Equal vs differentiated outcomes",
+      "Personal financial choices"
+    ]
   },
   "6.1.1": {
     "text": "The community MUST define an explicit conflict classification system that is known, accessible, and usable by all members.",
@@ -816,14 +1010,26 @@
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "61-conflict-classification",
-    "sectionHeading": "6.1 Conflict Classification"
+    "sectionHeading": "6.1 Conflict Classification",
+    "items": [
+      "Interpersonal conflicts (between individuals)",
+      "Role-based conflicts (authority, responsibility, or mandate disputes)",
+      "Structural conflicts (systemic incentives, rules, or resource allocation issues)",
+      "Ethical or boundary violations (violations of declared norms, scope, or safety boundaries)"
+    ]
   },
   "6.1.3": {
     "text": "Each conflict class MUST explicitly define:",
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "61-conflict-classification",
-    "sectionHeading": "6.1 Conflict Classification"
+    "sectionHeading": "6.1 Conflict Classification",
+    "items": [
+      "Entry criteria (how a situation is classified into this class)",
+      "Expected response priority and timelines (if any)",
+      "Permitted and required resolution pathways",
+      "Documentation requirements and privacy boundaries"
+    ]
   },
   "6.1.4": {
     "text": "Conflicts involving credible safety risks, coercion, abuse, or threats MUST be classified as **safety-critical** and MUST trigger elevated safeguards as defined in Section 6.3.",
@@ -858,7 +1064,16 @@
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "62-resolution-pathways",
-    "sectionHeading": "6.2 Resolution Pathways"
+    "sectionHeading": "6.2 Resolution Pathways",
+    "items": [
+      "How a conflict is raised, logged, and acknowledged",
+      "How involved parties are notified and invited to participate",
+      "How refusal, non-response, or withdrawal is handled",
+      "How mediators or facilitators are selected, replaced, or declined",
+      "Time-bounded expectations for each stage (where applicable)",
+      "Documentation requirements and access rules",
+      "A process for reviewing procedural failures or deadlock"
+    ]
   },
   "6.2.4": {
     "text": "The resolution process MUST be accessible without requiring social status, seniority, charisma, or informal proximity to decision-makers.",
@@ -886,21 +1101,39 @@
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "63-safeguards",
-    "sectionHeading": "6.3 Safeguards"
+    "sectionHeading": "6.3 Safeguards",
+    "items": [
+      "Raising a concern",
+      "Requesting mediation",
+      "Providing testimony or evidence",
+      "Participating in a review or appeal"
+    ]
   },
   "6.3.3": {
     "text": "Where a power differential exists between parties, elevated safeguards MUST be applied, which MAY include:",
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "63-safeguards",
-    "sectionHeading": "6.3 Safeguards"
+    "sectionHeading": "6.3 Safeguards",
+    "items": [
+      "Independent or external facilitation",
+      "Separate intake, documentation, or communication channels",
+      "Temporary suspension or limitation of role authority",
+      "Additional evidence and review thresholds prior to sanctions"
+    ]
   },
   "6.3.4": {
     "text": "For safety-critical conflicts, the community MUST define immediate protective actions that may be taken prior to full process completion, which MAY include:",
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "63-safeguards",
-    "sectionHeading": "6.3 Safeguards"
+    "sectionHeading": "6.3 Safeguards",
+    "items": [
+      "Temporary separation measures",
+      "Restricted access to shared spaces or resources",
+      "Temporary role suspension",
+      "Emergency escalation timelines"
+    ]
   },
   "6.3.5": {
     "text": "Safety safeguards MUST override participation rights, role continuity, and operational convenience.",
@@ -921,14 +1154,27 @@
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "64-sanctions-repair-and-separation",
-    "sectionHeading": "6.4 Sanctions, Repair, and Separation"
+    "sectionHeading": "6.4 Sanctions, Repair, and Separation",
+    "items": [
+      "Proportional to the violation",
+      "Explicitly documented",
+      "Time-bounded where applicable",
+      "Reviewable and appealable"
+    ]
   },
   "6.4.3": {
     "text": "The framework MUST define, at minimum:",
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "64-sanctions-repair-and-separation",
-    "sectionHeading": "6.4 Sanctions, Repair, and Separation"
+    "sectionHeading": "6.4 Sanctions, Repair, and Separation",
+    "items": [
+      "Available sanction and repair types",
+      "Preconditions and evidence standards",
+      "Authorized roles or bodies for application",
+      "Review and appeal mechanisms",
+      "Conditions for restoring rights, roles, or participation"
+    ]
   },
   "6.4.4": {
     "text": "Separation, suspension, or removal actions MUST follow due process and MUST align with exit and separation rules defined in Layer 1.",
@@ -956,28 +1202,51 @@
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "65-artifacts",
-    "sectionHeading": "6.5 Artifacts"
+    "sectionHeading": "6.5 Artifacts",
+    "items": [
+      "Conflict Resolution Ladder",
+      "Accountability Protocol"
+    ]
   },
   "6.5.2": {
     "text": "Layer 4 artifacts MUST be:",
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "65-artifacts",
-    "sectionHeading": "6.5 Artifacts"
+    "sectionHeading": "6.5 Artifacts",
+    "items": [
+      "Explicit and unambiguous",
+      "Versioned",
+      "Accessible to all members, with clearly bounded privacy protections",
+      "Adopted through an authorized governance process"
+    ]
   },
   "6.5.3": {
     "text": "The Conflict Resolution Ladder MUST define, at minimum:",
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "65-artifacts",
-    "sectionHeading": "6.5 Artifacts"
+    "sectionHeading": "6.5 Artifacts",
+    "items": [
+      "Conflict classification inputs and escalation thresholds",
+      "Resolution stages and facilitator selection rules",
+      "Documentation and information access boundaries",
+      "Safety-critical exceptions and immediate safeguards"
+    ]
   },
   "6.5.4": {
     "text": "The Accountability Protocol MUST define, at minimum:",
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "65-artifacts",
-    "sectionHeading": "6.5 Artifacts"
+    "sectionHeading": "6.5 Artifacts",
+    "items": [
+      "Investigation, review, and decision mechanisms",
+      "Due process guarantees and anti-retaliation protections",
+      "Sanction and repair options with proportionality rules",
+      "Appeals, oversight, and escalation paths",
+      "Coordination with Layer 1 exit and separation processes"
+    ]
   },
   "6.6.1": {
     "text": "Conflict MUST be treated as a handled condition with defined pathways; ignoring, suppressing, or normalizing unresolved conflict MUST be considered a system violation.",
@@ -1012,21 +1281,36 @@
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "67-explicitness-rules",
-    "sectionHeading": "6.7 Explicitness Rules"
+    "sectionHeading": "6.7 Explicitness Rules",
+    "items": [
+      "Conflict classification system",
+      "Minimum resolution and escalation process",
+      "Safeguards and anti-retaliation protections",
+      "Sanction, repair, and separation thresholds"
+    ]
   },
   "6.7.2": {
     "text": "The following MAY be explicit:",
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "67-explicitness-rules",
-    "sectionHeading": "6.7 Explicitness Rules"
+    "sectionHeading": "6.7 Explicitness Rules",
+    "items": [
+      "Mediation styles or methodologies",
+      "Facilitator selection preferences beyond minimum safeguards",
+      "Restorative or reparative practices"
+    ]
   },
   "6.7.3": {
     "text": "The following MUST remain optional and out of scope:",
     "layer": 4,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-4-conflict-repair-accountability",
     "sectionAnchor": "67-explicitness-rules",
-    "sectionHeading": "6.7 Explicitness Rules"
+    "sectionHeading": "6.7 Explicitness Rules",
+    "items": [
+      "Emotional expression norms",
+      "Therapeutic, spiritual, or ideological framing of conflict"
+    ]
   },
   "7.1.1": {
     "text": "All ongoing responsibilities MUST be assigned to explicit, named roles rather than implicit expectations or informal agreements.",
@@ -1040,14 +1324,27 @@
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "71-roles-and-responsibilities",
-    "sectionHeading": "7.1 Roles and Responsibilities"
+    "sectionHeading": "7.1 Roles and Responsibilities",
+    "items": [
+      "Role name and purpose",
+      "Scope of responsibility and decision authority",
+      "Explicit boundaries and interfaces with other roles, circles, or domains",
+      "Eligibility criteria (if any)",
+      "Term length, rotation, or review conditions (if any)",
+      "Appointment, review, and removal process"
+    ]
   },
   "7.1.3": {
     "text": "Each role MUST include an explicit accountability mechanism defining:",
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "71-roles-and-responsibilities",
-    "sectionHeading": "7.1 Roles and Responsibilities"
+    "sectionHeading": "7.1 Roles and Responsibilities",
+    "items": [
+      "How role performance is reviewed",
+      "How underperformance, overload, or role failure is handled",
+      "How handover and knowledge transfer occur"
+    ]
   },
   "7.1.4": {
     "text": "No ongoing responsibility MAY exist without an explicit role, and no person MAY be held accountable for responsibilities not formally assigned to a role.",
@@ -1068,14 +1365,30 @@
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "72-meeting-system",
-    "sectionHeading": "7.2 Meeting System"
+    "sectionHeading": "7.2 Meeting System",
+    "items": [
+      "Operations",
+      "Governance",
+      "Coordination and alignment",
+      "Reflection and learning",
+      "Conflict handling (as required by Layer 4)"
+    ]
   },
   "7.2.2": {
     "text": "Each meeting type MUST define, at minimum:",
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "72-meeting-system",
-    "sectionHeading": "7.2 Meeting System"
+    "sectionHeading": "7.2 Meeting System",
+    "items": [
+      "Purpose and decision scope",
+      "Required vs optional participants",
+      "Cadence and duration boundaries",
+      "Facilitation role and selection or rotation process",
+      "Agenda structure",
+      "Documentation and publication requirements",
+      "Decision capture requirements where decisions are made"
+    ]
   },
   "7.2.3": {
     "text": "Meetings MUST NOT exceed their declared decision scope or bypass authority boundaries defined in Layer 2.",
@@ -1103,14 +1416,27 @@
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "73-documentation-and-information-flow",
-    "sectionHeading": "7.3 Documentation and Information Flow"
+    "sectionHeading": "7.3 Documentation and Information Flow",
+    "items": [
+      "What information MUST be recorded",
+      "Where records are stored",
+      "Who has access to which records",
+      "Publication or notification timelines (if any)",
+      "Privacy boundaries and conditions for restricted access"
+    ]
   },
   "7.3.3": {
     "text": "All decisions MUST be traceable to:",
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "73-documentation-and-information-flow",
-    "sectionHeading": "7.3 Documentation and Information Flow"
+    "sectionHeading": "7.3 Documentation and Information Flow",
+    "items": [
+      "Decision type and domain",
+      "Authorized role or body",
+      "Decision mechanism and threshold",
+      "Recorded outcome and effective date"
+    ]
   },
   "7.3.4": {
     "text": "Critical operational processes MUST be documented such that continuity does not depend on tacit knowledge held by specific individuals.",
@@ -1138,7 +1464,13 @@
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "74-workload-and-capacity-boundaries",
-    "sectionHeading": "7.4 Workload and Capacity Boundaries"
+    "sectionHeading": "7.4 Workload and Capacity Boundaries",
+    "items": [
+      "Limits on meeting load (frequency, duration, or total time)",
+      "Limits on role load (number of roles, scope, or expected hours)",
+      "Expectations for response times and availability (if any)",
+      "Mechanisms for renegotiation, relief, substitution, or redistribution"
+    ]
   },
   "7.4.3": {
     "text": "Workload boundaries MUST be reviewable and adjustable through an authorized governance process.",
@@ -1166,7 +1498,12 @@
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "75-operational-continuity",
-    "sectionHeading": "7.5 Operational Continuity"
+    "sectionHeading": "7.5 Operational Continuity",
+    "items": [
+      "Documented procedures",
+      "Clear handover mechanisms",
+      "Backup or redundancy arrangements where feasible"
+    ]
   },
   "7.5.3": {
     "text": "Operational continuity planning MUST be reviewed periodically.",
@@ -1180,28 +1517,49 @@
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "76-artifacts",
-    "sectionHeading": "7.6 Artifacts"
+    "sectionHeading": "7.6 Artifacts",
+    "items": [
+      "Operations Manual",
+      "Role Registry",
+      "Meeting Templates"
+    ]
   },
   "7.6.2": {
     "text": "Layer 5 artifacts MUST be:",
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "76-artifacts",
-    "sectionHeading": "7.6 Artifacts"
+    "sectionHeading": "7.6 Artifacts",
+    "items": [
+      "Explicit and unambiguous",
+      "Versioned",
+      "Accessible to all members, with clearly bounded privacy protections",
+      "Maintained as living documents with defined ownership and review cycles"
+    ]
   },
   "7.6.3": {
     "text": "The Operations Manual MUST define, at minimum:",
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "76-artifacts",
-    "sectionHeading": "7.6 Artifacts"
+    "sectionHeading": "7.6 Artifacts",
+    "items": [
+      "Core operational processes relied upon by the community",
+      "Interfaces between roles, domains, and meeting types",
+      "Documentation locations and update procedures"
+    ]
   },
   "7.6.4": {
     "text": "Meeting Templates MUST define, at minimum:",
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "76-artifacts",
-    "sectionHeading": "7.6 Artifacts"
+    "sectionHeading": "7.6 Artifacts",
+    "items": [
+      "Agenda structure",
+      "Notes and record format",
+      "Decision capture format where applicable"
+    ]
   },
   "7.7.1": {
     "text": "Ongoing responsibilities MUST NOT exist without an explicit role.",
@@ -1236,21 +1594,38 @@
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "78-explicitness-rules",
-    "sectionHeading": "7.8 Explicitness Rules"
+    "sectionHeading": "7.8 Explicitness Rules",
+    "items": [
+      "Roles and responsibilities",
+      "Operational authority boundaries and interfaces",
+      "Meeting types and scopes",
+      "Decision documentation rules",
+      "Information access and privacy boundaries"
+    ]
   },
   "7.8.2": {
     "text": "The following MAY be explicit:",
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "78-explicitness-rules",
-    "sectionHeading": "7.8 Explicitness Rules"
+    "sectionHeading": "7.8 Explicitness Rules",
+    "items": [
+      "Detailed meeting cadence beyond minimum constraints",
+      "Tooling choices for documentation and coordination",
+      "Role rotation or succession schedules"
+    ]
   },
   "7.8.3": {
     "text": "The following MUST remain optional and out of scope:",
     "layer": 5,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-5-operations-coordination",
     "sectionAnchor": "78-explicitness-rules",
-    "sectionHeading": "7.8 Explicitness Rules"
+    "sectionHeading": "7.8 Explicitness Rules",
+    "items": [
+      "Personal work styles",
+      "Aesthetic or cultural preferences",
+      "Informal social coordination"
+    ]
   },
   "8.1.1": {
     "text": "The community MUST define explicit change mechanisms for modifying, adding, suspending, or removing rules, roles, artifacts, or decision structures.",
@@ -1264,14 +1639,25 @@
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "81-change-mechanisms",
-    "sectionHeading": "8.1 Change Mechanisms"
+    "sectionHeading": "8.1 Change Mechanisms",
+    "items": [
+      "Permanent rule changes",
+      "Time-bounded experiments as defined in Section 8.3"
+    ]
   },
   "8.1.3": {
     "text": "Every proposed change MUST specify, at minimum:",
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "81-change-mechanisms",
-    "sectionHeading": "8.1 Change Mechanisms"
+    "sectionHeading": "8.1 Change Mechanisms",
+    "items": [
+      "The artifact(s), layer(s), and section(s) affected",
+      "The decision type and authorized decision path as defined in Layer 2",
+      "The intended effect, scope, and known risks",
+      "The effective date and any transition period",
+      "Migration requirements for existing roles, agreements, or records"
+    ]
   },
   "8.1.4": {
     "text": "Changes affecting Layer 0 purpose, scope, invariants, or identity constraints MUST be classified as constitutional changes and MUST follow the constitutional decision mechanism.",
@@ -1299,14 +1685,25 @@
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "82-versioning-and-authority",
-    "sectionHeading": "8.2 Versioning and Authority"
+    "sectionHeading": "8.2 Versioning and Authority",
+    "items": [
+      "Version identifier",
+      "Adoption date and effective date",
+      "Decision record reference (authority, mechanism, threshold)",
+      "Summary of changes",
+      "Migration notes and compatibility constraints (if any)"
+    ]
   },
   "8.2.3": {
     "text": "At any point in time, the community MUST be able to unambiguously determine:",
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "82-versioning-and-authority",
-    "sectionHeading": "8.2 Versioning and Authority"
+    "sectionHeading": "8.2 Versioning and Authority",
+    "items": [
+      "Which version is currently in force",
+      "Which artifacts are authoritative for compliance"
+    ]
   },
   "8.2.4": {
     "text": "Superseded rules MUST remain accessible for auditability, learning, and dispute resolution, together with the dates during which they were in force.",
@@ -1334,7 +1731,14 @@
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "83-experiments",
-    "sectionHeading": "8.3 Experiments"
+    "sectionHeading": "8.3 Experiments",
+    "items": [
+      "Scope (what is changed and what is explicitly not changed)",
+      "Duration and review checkpoints",
+      "Success and failure criteria",
+      "Rollback conditions and rollback process",
+      "Authorized decision path for starting, extending, modifying, or terminating the experiment"
+    ]
   },
   "8.3.3": {
     "text": "Experiments MUST NOT override Layer 0 invariants and MUST NOT bypass governance constraints defined in Layer 2.",
@@ -1369,7 +1773,13 @@
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "84-learning-and-feedback-capture",
-    "sectionHeading": "8.4 Learning and Feedback Capture"
+    "sectionHeading": "8.4 Learning and Feedback Capture",
+    "items": [
+      "What occurred and why it mattered",
+      "Which layers, rules, or artifacts were implicated",
+      "What was changed, attempted, or stopped",
+      "What signals, evidence, or thresholds triggered action"
+    ]
   },
   "8.4.3": {
     "text": "Learning records MUST be accessible according to Layer 5 information access rules.",
@@ -1397,7 +1807,12 @@
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "85-change-safety-and-reversibility",
-    "sectionHeading": "8.5 Change Safety and Reversibility"
+    "sectionHeading": "8.5 Change Safety and Reversibility",
+    "items": [
+      "Extended deliberation or review periods",
+      "Higher decision thresholds where appropriate",
+      "Explicit risk acknowledgment"
+    ]
   },
   "8.5.3": {
     "text": "Emergency changes MAY be permitted only where explicitly defined, MUST be time-bounded, MUST NOT override Layer 0 invariants, and MUST undergo mandatory post-hoc review and ratification or rollback.",
@@ -1411,35 +1826,64 @@
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
-    "sectionHeading": "8.6 Artifacts"
+    "sectionHeading": "8.6 Artifacts",
+    "items": [
+      "Change Protocol",
+      "Version History",
+      "Learning Log"
+    ]
   },
   "8.6.2": {
     "text": "Layer 6 artifacts MUST be:",
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
-    "sectionHeading": "8.6 Artifacts"
+    "sectionHeading": "8.6 Artifacts",
+    "items": [
+      "Explicit and unambiguous",
+      "Versioned",
+      "Accessible to all members, with clearly bounded privacy protections",
+      "Adopted through an authorized governance process"
+    ]
   },
   "8.6.3": {
     "text": "The Change Protocol MUST define, at minimum:",
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
-    "sectionHeading": "8.6 Artifacts"
+    "sectionHeading": "8.6 Artifacts",
+    "items": [
+      "How changes are proposed, reviewed, adopted, published, and rejected",
+      "How proposals are classified by decision type",
+      "Required contents of change proposals",
+      "Transition, migration, and deprecation expectations",
+      "Review, revision, and rollback mechanisms",
+      "Emergency change provisions, including strict time bounds and mandatory review"
+    ]
   },
   "8.6.4": {
     "text": "The Version History MUST define:",
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
-    "sectionHeading": "8.6 Artifacts"
+    "sectionHeading": "8.6 Artifacts",
+    "items": [
+      "The authoritative structure for version identifiers and change logs",
+      "How superseded versions are retained and accessed",
+      "How the currently active version is determined"
+    ]
   },
   "8.6.5": {
     "text": "The Learning Log MUST define:",
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "86-artifacts",
-    "sectionHeading": "8.6 Artifacts"
+    "sectionHeading": "8.6 Artifacts",
+    "items": [
+      "What constitutes a learnable event",
+      "Documentation format and ownership",
+      "Review and synthesis cadence"
+    ]
   },
   "8.7.1": {
     "text": "Change MUST be possible but constrained; no change MAY be instantaneous, implicit, or unreviewable.",
@@ -1474,20 +1918,35 @@
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "88-explicitness-rules",
-    "sectionHeading": "8.8 Explicitness Rules"
+    "sectionHeading": "8.8 Explicitness Rules",
+    "items": [
+      "How rules change and who decides",
+      "Versioning, authority, and review processes",
+      "Experiment scope, duration, and rollback conditions",
+      "Emergency change conditions and limits"
+    ]
   },
   "8.8.2": {
     "text": "The following MAY be explicit:",
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "88-explicitness-rules",
-    "sectionHeading": "8.8 Explicitness Rules"
+    "sectionHeading": "8.8 Explicitness Rules",
+    "items": [
+      "Review frequency and cadence",
+      "Sunset clauses",
+      "Feedback and sensing methods"
+    ]
   },
   "8.8.3": {
     "text": "The following MUST remain optional and out of scope:",
     "layer": 6,
     "layerUrl": "https://rcos.ecohubs.community/articles/rcos-core/v0-1/layer-6-evolution-adaptation",
     "sectionAnchor": "88-explicitness-rules",
-    "sectionHeading": "8.8 Explicitness Rules"
+    "sectionHeading": "8.8 Explicitness Rules",
+    "items": [
+      "Pace of innovation",
+      "Cultural attitudes toward risk within defined bounds"
+    ]
   }
 }

@@ -14,14 +14,16 @@ import layerUrls from '../data/rcos-layer-urls.json';
  *   :::
  *
  * The `rcos` block looks up each clause number in rcos-clauses.json (generated
- * from the RCOS Standard spec) and emits verbatim text plus a link to the section
- * on rcos.ecohubs.community. Clause numbers may be comma- or space-
- * separated. Any unknown clause is emitted as an inline error comment so build
+ * from the RCOS Standard spec) and emits verbatim text, the clause's list items
+ * if it has any, plus a link to each section cited on rcos.ecohubs.community.
+ * Clause numbers may be comma- or space-separated. Any unknown clause is emitted as an inline error comment so build
  * output surfaces mistakes without failing the build.
  */
 
 type ClauseInfo = {
   text: string;
+  /** The list that follows the text in clauses ending "MUST include:" */
+  items?: string[];
   layer: number;
   layerUrl: string;
   sectionAnchor: string;
@@ -63,8 +65,8 @@ export default function remarkRcosDirectives() {
         const attrs = node.attributes ?? {};
         const clauseList = parseClauseList(attrs.clauses ?? attrs.clause ?? '');
         const items: string[] = [];
-        let layerUrl: string | null = null;
-        let firstAnchor: string | null = null;
+        // One link per section cited, in order: href → section heading.
+        const sources = new Map<string, string>();
 
         for (const num of clauseList) {
           const info = clauseMap[num];
@@ -74,20 +76,23 @@ export default function remarkRcosDirectives() {
             );
             continue;
           }
-          if (!layerUrl) layerUrl = info.layerUrl;
-          if (!firstAnchor) firstAnchor = info.sectionAnchor;
+          sources.set(`${info.layerUrl}#${info.sectionAnchor}`, info.sectionHeading);
+          const sublist = info.items?.length
+            ? `<ul class="rcos-clause-items">${info.items.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`
+            : '';
           items.push(
-            `<li class="rcos-clause"><strong>${escapeHtml(num)}</strong> ${escapeHtml(info.text)}</li>`
+            `<li class="rcos-clause"><strong>${escapeHtml(num)}</strong> ${escapeHtml(info.text)}${sublist}</li>`
           );
         }
 
-        const deepLink =
-          layerUrl && firstAnchor ? `${layerUrl}#${firstAnchor}` : layerUrl ?? '#';
-        const sectionLabel = clauseList.length
-          ? clauseMap[clauseList[0]]?.sectionHeading ?? 'RCOS spec'
-          : 'RCOS spec';
+        const links = [...sources]
+          .map(
+            ([href, heading]) =>
+              `<p class="accordion-link"><a href="${escapeHtml(href)}" target="_blank" rel="noopener">Read ${escapeHtml(heading)} in the RCOS spec <span class="arrow">↗</span></a></p>`
+          )
+          .join('');
 
-        const html = `<details class="accordion accordion-rcos"><summary><span class="accordion-title">RCOS definition</span><span class="accordion-hint">${escapeHtml(clauseList.join(', '))}</span></summary><div class="accordion-body"><ul class="rcos-clauses">${items.join('')}</ul><p class="accordion-link"><a href="${deepLink}" target="_blank" rel="noopener">Read ${escapeHtml(sectionLabel)} in the RCOS spec <span class="arrow">↗</span></a></p></div></details>`;
+        const html = `<details class="accordion accordion-rcos"><summary><span class="accordion-title">RCOS definition</span><span class="accordion-hint">${escapeHtml(clauseList.join(', '))}</span></summary><div class="accordion-body"><ul class="rcos-clauses">${items.join('')}</ul>${links}</div></details>`;
 
         node.type = 'html';
         node.value = html;
