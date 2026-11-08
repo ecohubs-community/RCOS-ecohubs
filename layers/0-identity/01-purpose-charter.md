@@ -8,7 +8,7 @@
 
 ## Primary Purpose
 
-:::rcos{clauses="2.1.1, 2.1.2, 2.1.5"}
+:::rcos{clauses="2.1.1, 2.1.2, 2.1.3, 2.1.5"}
 :::
 
 :::rationale{title="Why a single enduring purpose?"}

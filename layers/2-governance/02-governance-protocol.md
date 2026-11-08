@@ -40,7 +40,7 @@ Rushed votes favor whoever is already paying attention and disadvantage everyone
 
 ## Decision Execution
 
-:::rcos{clauses="4.5.1, 4.5.4"}
+:::rcos{clauses="4.5.1, 4.5.2, 4.5.4"}
 :::
 
 :::rationale{title="Why tie execution to the record?"}
@@ -53,7 +53,7 @@ A passed proposal that never reaches the affected artifact is a decision in name
 
 ## Documentation and Publication
 
-:::rcos{clauses="4.5.4"}
+:::rcos{clauses="4.5.2, 4.5.4"}
 :::
 
 :::rationale{title="Why document every outcome, including rejections?"}

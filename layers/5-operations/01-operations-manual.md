@@ -110,7 +110,7 @@ Whoever controls access to information controls the community, whether they mean
 
 ## Documentation Locations and Update Procedures
 
-:::rcos{clauses="7.3.1, 7.3.2, 7.3.3"}
+:::rcos{clauses="7.3.1, 7.3.2, 7.3.3, 7.6.3"}
 :::
 
 :::rationale{title="Why name where every document lives?"}

@@ -44,7 +44,7 @@ Rights that are not written down are rights that can be quietly withdrawn. Enume
 
 ## Member Obligations
 
-:::rcos{clauses="3.4.2, 3.4.4, 3.4.5"}
+:::rcos{clauses="3.4.2, 3.4.3, 3.4.4, 3.4.5"}
 :::
 
 :::rationale{title="Why bound obligations tightly?"}

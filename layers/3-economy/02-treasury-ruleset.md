@@ -21,7 +21,7 @@ The shared treasury consists of all funds held in the Safe multi-sig wallet and 
 
 ## Income Sources
 
-:::rcos{clauses="5.3.2"}
+:::rcos{clauses="5.3.2, 5.5.4"}
 :::
 
 :::rationale{title="Why route all income through one declared list?"}
@@ -34,7 +34,7 @@ Potential future income interfaces: grants and foundations, Web3 ecosystem fundi
 
 ## Spending Authority
 
-:::rcos{clauses="5.3.3, 5.7.1"}
+:::rcos{clauses="5.3.3, 5.5.4, 5.7.1"}
 :::
 
 :::rationale{title="Why spell out thresholds in a table?"}
@@ -51,7 +51,7 @@ When spending authority is vague, two failure modes appear: either every small d
 
 ## Transparency and Reporting
 
-:::rcos{clauses="5.3.4, 5.3.5, 5.6.1"}
+:::rcos{clauses="5.3.4, 5.3.5, 5.5.4, 5.6.1"}
 :::
 
 :::rationale{title="Why make transparency the default, not a feature?"}
@@ -66,7 +66,7 @@ All spending decisions must reference the linked governance record (ecohubsOS vo
 
 ## Reserve, Risk, and Debt Constraints
 
-:::rcos{clauses="5.3.6"}
+:::rcos{clauses="5.3.6, 5.5.4"}
 :::
 
 :::rationale{title="Why block debt and long-term obligations by default?"}
@@ -80,7 +80,7 @@ Debt and recurring commitments bind the community beyond the people currently in
 
 ## Conflict-of-Interest Rules
 
-:::rcos{clauses="5.4.3"}
+:::rcos{clauses="5.4.3, 5.5.4"}
 :::
 
 :::rationale{title="Why ban self-approval outright?"}

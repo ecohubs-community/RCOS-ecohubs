@@ -353,9 +353,20 @@ a:hover {
 .prose .rcos-clause-missing em {
   color: var(--color-danger);
 }
+.prose .rcos-clause-items {
+  list-style: disc;
+  margin: 0.25em 0 0;
+  padding-left: 4.35em;
+}
+.prose .rcos-clause-items li {
+  margin: 0.1em 0;
+}
 .prose .accordion-link {
   font-size: 0.88rem;
   margin: 0;
+}
+.prose .accordion-link + .accordion-link {
+  margin-top: 0.25em;
 }
 .prose .accordion-link a {
   text-decoration: none;

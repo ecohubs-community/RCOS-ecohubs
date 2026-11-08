@@ -49,7 +49,7 @@ Most conflict is low-stakes and best resolved between the people involved; forci
 
 ## Non-Response, Withdrawal, and Deadlock
 
-:::rcos{clauses="6.2.5, 6.1.5"}
+:::rcos{clauses="6.2.5, 6.1.5, 6.2.3"}
 :::
 
 :::rationale{title="What stops a process from being killed by silence?"}
@@ -78,7 +78,7 @@ The easiest way to defeat any accountability process is to ignore it. If non-res
 
 ## Facilitator Selection and Replacement
 
-:::rcos{clauses="6.3.1, 6.3.3"}
+:::rcos{clauses="6.2.3, 6.3.1, 6.3.3, 6.5.3"}
 :::
 
 :::rationale{title="Why name how the Facilitator is chosen or replaced?"}
@@ -92,7 +92,7 @@ A facilitator who is implicated in the conflict — or socially aligned with one
 
 ## Privacy and Information Access Boundaries
 
-:::rcos{clauses="6.5.3"}
+:::rcos{clauses="6.2.3, 6.5.3"}
 :::
 
 :::rationale{title="Why bound information flow so tightly?"}
@@ -106,7 +106,7 @@ Conflict records contain the most sensitive material the community holds. Leaks,
 
 ## Safeguards
 
-:::rcos{clauses="6.3.1, 6.3.2, 6.3.3, 6.3.4, 6.3.5"}
+:::rcos{clauses="6.3.1, 6.3.2, 6.3.3, 6.3.4, 6.3.5, 6.5.3"}
 :::
 
 :::rationale{title="Why do safeguards exist on top of the ladder?"}

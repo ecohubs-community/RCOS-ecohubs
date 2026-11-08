@@ -27,7 +27,7 @@ Any Full Member may propose a change to any RCOS artifact. Proposals are submitt
 
 ## How Proposals Are Classified
 
-:::rcos{clauses="8.1.2, 8.1.4"}
+:::rcos{clauses="8.1.2, 8.1.4, 8.6.3"}
 :::
 
 :::rationale{title="Why classify by impact?"}
@@ -42,7 +42,7 @@ Not every change deserves the same friction. Typo fixes should not need a superm
 
 ## Review and Deliberation
 
-:::rcos{clauses="8.1.2, 8.7.1"}
+:::rcos{clauses="8.1.2, 8.6.3, 8.7.1"}
 :::
 
 :::rationale{title="Why enforce minimum deliberation windows?"}
@@ -101,7 +101,7 @@ Version numbers are not skipped or reserved. A rejected proposal consumes no ver
 
 ## Rejection
 
-:::rcos{clauses="8.2.2, 8.2.4"}
+:::rcos{clauses="8.2.2, 8.2.4, 8.6.3"}
 :::
 
 :::rationale{title="Why archive rejected proposals?"}
@@ -115,7 +115,7 @@ When a proposal is rejected:
 
 ## Transition and Migration
 
-:::rcos{clauses="8.5.1, 8.5.2"}
+:::rcos{clauses="8.5.1, 8.5.2, 8.6.3"}
 :::
 
 :::rationale{title="Why protect existing rights during transitions?"}
@@ -130,7 +130,7 @@ When a rule change affects existing roles, agreements, or records:
 
 ## Rollback
 
-:::rcos{clauses="8.1.5, 8.5.1"}
+:::rcos{clauses="8.1.5, 8.5.1, 8.6.3"}
 :::
 
 :::rationale{title="Why make rollback symmetrical with adoption?"}
@@ -141,7 +141,7 @@ Any passed decision can be reversed through the same process as the original dec
 
 ## Emergency Changes
 
-:::rcos{clauses="8.5.3"}
+:::rcos{clauses="8.5.3, 8.6.3"}
 :::
 
 :::rationale{title="Why allow emergency changes at all?"}
